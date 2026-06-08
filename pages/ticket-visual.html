@@ -1,0 +1,30 @@
+﻿<section class="page app-page hidden" id="ticketVisualPage">
+  <button class="text-button back-button adventure-back" id="visualHomeButton" type="button" aria-label="Back to home">
+    <span class="back-icon" aria-hidden="true"></span>
+    <span class="ticket-back-label" data-i18n="ticketBackLabel">Tiket</span>
+  </button>
+  <article class="ticket-visual">
+    <div class="ticket-main">
+      <h1 id="visualFestival">Festival Name</h1>
+      <div class="visual-meta">
+        <p><span>Ticket ID</span><strong id="visualTicketId"></strong></p>
+        <p><span>Stage</span><strong id="visualStage"></strong></p>
+        <p><span>Day</span><strong id="visualDay"></strong></p>
+        <p><span>Date</span><strong id="visualDate"></strong></p>
+        <p><span>Venue</span><strong id="visualVenue"></strong></p>
+        <p><span>Qty</span><strong id="visualQty"></strong></p>
+      </div>
+    </div>
+    <div class="ticket-stub">
+      <div class="dummy-qr" aria-label="Dummy QR code"></div>
+      <p id="visualTicketType"></p>
+      <strong id="visualTotal"></strong>
+      <button class="secondary-button download-ticket-button" id="visualDownloadButton" type="button" data-i18n="downloadTicket">Download Ticket</button>
+    </div>
+  </article>
+  <div class="hotel-voucher hidden" id="visualHotelVoucher">
+    <p class="eyebrow" data-i18n="hotelVoucher">Hotel Voucher</p>
+    <h2 id="visualHotelName">Hotel Name</h2>
+    <p id="visualHotelDesc"></p>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+﻿<section class="page app-page profile-page hidden" id="profilePage">
+  <div class="profile-card">
+    <div class="card-topline profile-heading">
+      <button class="text-button back-button" id="profileBackButton" type="button">
+        <span class="back-icon" aria-hidden="true"></span>
+      </button>
+      <p class="eyebrow" data-i18n="profileTitle">Profile</p>
+    </div>
+    <div class="profile-photo-wrap">
+      <img class="profile-photo-large" id="profilePhotoLarge" src="assets/IMG_7063.png" alt="Profile photo">
+      <button class="edit-photo-button" id="editPhotoButton" type="button" aria-label="Change profile photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 20h4.3L19.6 8.7a2.1 2.1 0 0 0 0-3L18.3 4.4a2.1 2.1 0 0 0-3 0L4 15.7V20Zm2-3.5 10.8-10.8 1.5 1.5L7.5 18H6v-1.5Z"></path>
+        </svg>
+      </button>
+      <input class="hidden" id="profilePhotoInput" type="file" accept="image/*">
+    </div>
+    <h2 id="profileName">Kelompok 3</h2>
+    <p id="profileEmail">kelompok3@gmail.com</p>
+    <p id="profilePhone">Phone number: -</p>
+    <div class="profile-language">
+      <span data-i18n="profileLanguage">Language</span>
+      <div class="profile-language-actions">
+        <button class="secondary-button" type="button" data-profile-language="en">English</button>
+        <button class="secondary-button" type="button" data-profile-language="id">Indonesia</button>
+      </div>
+    </div>
+    <button class="secondary-button" id="resetPasswordButton" type="button" data-i18n="resetPassword">Reset Password</button>
+    <button class="secondary-button" id="changeAccountButton" type="button" data-i18n="changeAccount">Change Account</button>
+    <button class="danger-button" id="signOutButton" type="button" data-i18n="signOut">Sign Out</button>
+  </div>
+</section>

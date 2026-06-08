@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIGAKU</title>
+  <link rel="icon" type="image/png" href="assets/NigakuIcon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="auth-screen" id="authScreen">
+    <section class="auth-panel">
+      <h1 class="auth-brand logo-wordmark">NIGAKU</h1>
+
+      <div class="auth-tabs" role="tablist" aria-label="Authentication tabs">
+        <button class="auth-tab active" id="signinTab" type="button">Sign In</button>
+        <button class="auth-tab" id="signupTab" type="button">Sign Up</button>
+      </div>
+
+      <form class="auth-form active" id="signinForm">
+        <label>
+          Email
+          <input type="email" id="signinEmail" value="kelompok3@gmail.com" required>
+        </label>
+        <label>
+          Password
+          <input type="password" id="signinPassword" value="12345678" required>
+        </label>
+        <p class="form-error" id="signinError"></p>
+        <button class="primary-button" type="submit">Sign In</button>
+      </form>
+
+      <form class="auth-form" id="signupForm">
+        <label>
+          Username
+          <input type="text" id="signupUsername" placeholder="Your name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" id="signupEmail" placeholder="you@example.com" required>
+        </label>
+        <label>
+          Password
+          <input type="password" id="signupPassword" placeholder="Minimum 8 characters" required minlength="8">
+        </label>
+        <label>
+          Phone Number <span>Optional</span>
+          <input type="tel" id="signupPhone" placeholder="+62">
+        </label>
+        <button class="primary-button" type="submit">Create Account</button>
+      </form>
+      <form class="auth-form" id="resetForm">
+        <label>
+          Account Email
+          <input type="email" id="resetEmail" placeholder="kelompok3@gmail.com" required>
+        </label>
+        <label>
+          New Password
+          <input type="password" id="resetPassword" placeholder="Minimum 8 characters" required minlength="8">
+        </label>
+        <label>
+          Confirm Password
+          <input type="password" id="resetConfirmPassword" placeholder="Repeat new password" required minlength="8">
+        </label>
+        <p class="form-error" id="resetError"></p>
+        <button class="primary-button" type="submit">Reset Password</button>
+        <button class="secondary-button" id="resetBackButton" type="button">Back to Sign In</button>
+      </form>
+      <footer class="page-footer auth-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+  </main>
+
+  <main class="app-shell hidden" id="appShell">
+    <nav class="topbar">
+      <a class="nav-brand logo-wordmark" href="#home" data-route="home">NIGAKU</a>
+      <div class="nav-links">
+        <a href="#home" data-route="home" data-i18n="navTicket">Ticket</a>
+        <a href="#merchandise" data-route="merchandise" data-i18n="navMerchandise">Merchandise</a>
+        <a href="#gallery" data-route="gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#about" data-route="about" data-i18n="navAbout">About Us</a>
+      </div>
+      <button class="profile-trigger" id="profileTrigger" type="button" aria-label="Open profile">
+        <img src="assets/IMG_7063.png" alt="Profile photo">
+      </button>
+    </nav>
+
+    <section class="language-gate app-page" id="languageGate">
+      <div>
+        <p class="eyebrow">Welcome to NIGAKU</p>
+        <h2>Choose your language</h2>
+        <p>Select one before entering the festival marketplace.</p>
+      </div>
+      <div class="language-actions">
+        <button class="primary-button" type="button" data-language="en">English</button>
+        <button class="secondary-button" type="button" data-language="id">Indonesia</button>
+      </div>
+    </section>
+
+    <section class="page app-page hidden" id="homePage">
+      <header class="home-hero">
+        <h1 class="logo-wordmark">NIGAKU</h1>
+        <p data-i18n="homeIntro">Next Interactive Gateway for Access to Konser Universe.</p>
+      </header>
+
+      <section class="choice-grid" aria-label="Festival category choices">
+        <button class="choice-card choice-international" type="button" data-category-choice="international">
+          <span data-i18n="choiceInternationalLabel">International</span>
+          <strong data-i18n="choiceInternationalTitle">Global festival weekends</strong>
+          <small data-i18n="choiceInternationalDesc">Singapore, Tokyo, Seoul, Bangkok, and more.</small>
+        </button>
+        <button class="choice-card choice-local" type="button" data-category-choice="local">
+          <span>Lokal</span>
+          <strong data-i18n="choiceLocalTitle">Festival Indonesia</strong>
+          <small data-i18n="choiceLocalDesc">Jakarta, Bali, Bandung, Jogja, Surabaya, and more.</small>
+        </button>
+      </section>
+      <footer class="page-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+
+    <section class="page app-page hidden" id="ticketsPage">
+      <div class="page-heading ticket-page-heading">
+        <div>
+          <div class="card-topline">
+            <button class="text-button back-button" id="ticketsBackButton" type="button">
+              <span class="back-icon" aria-hidden="true"></span>
+            </button>
+            <p class="eyebrow" data-i18n="ticketsEyebrow">Tickets</p>
+          </div>
+          <h1 id="ticketHeading">Pick a Category</h1>
+        </div>
+        <div class="nav-search" id="navSearch">
+          <button class="search-trigger" id="searchTrigger" type="button" aria-label="Search tickets">
+            <span class="search-icon" aria-hidden="true"></span>
+          </button>
+          <input class="search-input" id="ticketSearchInput" type="search" placeholder="Search">
+        </div>
+      </div>
+      <div class="card-grid" id="ticketGrid"></div>
+      <footer class="page-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+
+    <section class="page app-page hidden" id="festivalDetailPage">
+      <article class="festival-detail-page-card">
+        <div>
+          <div class="card-topline">
+            <button class="text-button back-button" id="backToTicketsButton" type="button">
+              <span class="back-icon" aria-hidden="true"></span>
+            </button>
+            <p class="eyebrow" id="detailGenre">Festival</p>
+          </div>
+          <h1 id="detailTitle">Festival Name</h1>
+          <p id="detailSummary"></p>
+        </div>
+        <div class="festival-detail-list">
+          <p><strong data-i18n="detailDate">Date</strong><span id="detailDateValue"></span></p>
+          <p><strong data-i18n="detailLocation">Location</strong><span id="detailPlaceValue"></span></p>
+          <p><strong data-i18n="detailLineup">Lineup</strong><span id="detailLineupValue"></span></p>
+        </div>
+        <div>
+          <p class="eyebrow" data-i18n="ticketOptions">Ticket Options</p>
+          <div class="ticket-option-list" id="ticketOptionList"></div>
+        </div>
+        <button class="secondary-button" id="detailOfficialButton" type="button">Official Website</button>
+      </article>
+    </section>
+
+    <section class="page app-page hidden" id="checkoutPage">
+      <article class="checkout-card">
+        <div class="card-topline">
+          <button class="text-button back-button" id="checkoutBackButton" type="button">
+            <span class="back-icon" aria-hidden="true"></span>
+          </button>
+          <p class="eyebrow" data-i18n="checkoutEyebrow">Checkout</p>
+        </div>
+        <h1 id="checkoutTitle">Checkout</h1>
+        <div class="checkout-summary">
+          <p><strong data-i18n="checkoutFestival">Festival</strong><span id="checkoutFestival"></span></p>
+          <p><strong data-i18n="checkoutTicket">Ticket</strong><span id="checkoutTicket"></span></p>
+          <label class="checkout-quantity">
+            <strong data-i18n="checkoutQty">Quantity</strong>
+            <input id="checkoutQty" type="number" min="1" value="1">
+          </label>
+          <p><strong data-i18n="checkoutService">Service Fee</strong><span id="checkoutService"></span></p>
+          <p><strong data-i18n="checkoutTotal">Total</strong><span id="checkoutTotal"></span></p>
+          <p><strong data-i18n="checkoutBonus">Bonus</strong><span id="checkoutBonus"></span></p>
+        </div>
+        <div class="hotel-voucher hidden" id="hotelVoucher">
+          <p class="eyebrow" data-i18n="hotelVoucher">Hotel Voucher</p>
+          <h2 id="hotelName">Hotel Name</h2>
+          <p id="hotelDesc"></p>
+        </div>
+        <div class="checkout-actions">
+          <button class="primary-button" id="checkoutPayButton" type="button">Continue to Payment</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="page app-page hidden" id="paymentMethodPage">
+      <article class="checkout-card">
+        <div class="card-topline">
+          <button class="text-button back-button" id="paymentBackButton" type="button">
+            <span class="back-icon" aria-hidden="true"></span>
+          </button>
+          <p class="eyebrow" data-i18n="paymentEyebrow">Payment Method</p>
+        </div>
+        <h1 data-i18n="paymentTitle">Choose a Payment Method</h1>
+        <button class="payment-option" id="qrisOptionButton" type="button">
+          <strong>QRIS</strong>
+          <span data-i18n="qrisDesc">Scan and pay with any QRIS-supported app.</span>
+        </button>
+      </article>
+    </section>
+
+    <section class="page app-page hidden" id="qrisPage">
+      <article class="checkout-card qris-card">
+        <div class="card-topline">
+          <button class="text-button back-button" id="qrisBackButton" type="button">
+            <span class="back-icon" aria-hidden="true"></span>
+          </button>
+          <p class="eyebrow">QRIS</p>
+        </div>
+        <h1 data-i18n="scanQris">Scan QRIS</h1>
+        <img src="assets/Tipe-QRIS-statis-small-large.jpg" alt="Dummy QRIS payment code">
+        <p><span data-i18n="checkoutTotal">Total</span>: <strong id="qrisAmount"></strong></p>
+        <button class="primary-button" id="checkPaymentButton" type="button" data-i18n="checkStatus">Check Status</button>
+      </article>
+    </section>
+
+    <section class="page app-page hidden" id="paymentSuccessPage">
+      <article class="checkout-card success-card">
+        <p class="eyebrow" data-i18n="paymentSuccess">Payment Successful</p>
+        <h1 data-i18n="paymentDone">Payment Complete</h1>
+        <p><span data-i18n="checkoutTotal">Total</span>: <strong id="successAmount"></strong></p>
+        <p id="redirectTicketText">Your ticket will appear in <strong id="redirectCountdown">3</strong> seconds.</p>
+      </article>
+    </section>
+
+    <section class="page app-page hidden" id="ticketVisualPage">
+      <button class="text-button back-button adventure-back" id="visualHomeButton" type="button" aria-label="Back to home">
+        <span class="back-icon" aria-hidden="true"></span>
+        <span class="ticket-back-label" data-i18n="ticketBackLabel">Tiket</span>
+      </button>
+      <article class="ticket-visual">
+        <div class="ticket-main">
+          <h1 id="visualFestival">Festival Name</h1>
+          <div class="visual-meta">
+            <p><span>Ticket ID</span><strong id="visualTicketId"></strong></p>
+            <p><span>Stage</span><strong id="visualStage"></strong></p>
+            <p><span>Day</span><strong id="visualDay"></strong></p>
+            <p><span>Date</span><strong id="visualDate"></strong></p>
+            <p><span>Venue</span><strong id="visualVenue"></strong></p>
+            <p><span>Qty</span><strong id="visualQty"></strong></p>
+          </div>
+        </div>
+        <div class="ticket-stub">
+          <div class="dummy-qr" aria-label="Dummy QR code"></div>
+          <p id="visualTicketType"></p>
+          <strong id="visualTotal"></strong>
+          <button class="secondary-button download-ticket-button" id="visualDownloadButton" type="button" data-i18n="downloadTicket">Download Ticket</button>
+        </div>
+      </article>
+      <div class="hotel-voucher hidden" id="visualHotelVoucher">
+        <p class="eyebrow" data-i18n="hotelVoucher">Hotel Voucher</p>
+        <h2 id="visualHotelName">Hotel Name</h2>
+        <p id="visualHotelDesc"></p>
+      </div>
+    </section>
+
+    <section class="page app-page hidden" id="merchandisePage">
+      <div class="page-heading">
+        <div>
+          <p class="eyebrow" data-i18n="merchEyebrow">Official Drops</p>
+          <h1 data-i18n="merchTitle">Merchandise</h1>
+          <p data-i18n="merchIntro">Template merch cards for add-ons, apparel, and festival goods.</p>
+        </div>
+      </div>
+      <div class="card-grid" id="merchGrid"></div>
+      <footer class="page-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+
+    <section class="page app-page hidden" id="galleryPage">
+      <div class="page-heading">
+        <div>
+          <p class="eyebrow" data-i18n="galleryEyebrow">Moments</p>
+          <h1 data-i18n="galleryTitle">Gallery</h1>
+          <p data-i18n="galleryIntro">Festival moments from the crowd, stage, lights, gates, camping area, and sunset sets.</p>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-tile teal" data-i18n="galleryCrowd" data-image="assets/crowdwave.jpeg">Crowd Wave</div>
+        <div class="gallery-tile orange" data-i18n="galleryStage" data-image="assets/mainstage.jpeg">Main Stage</div>
+        <div class="gallery-tile cream" data-i18n="galleryLight" data-image="assets/light.jpeg">Light Show</div>
+        <div class="gallery-tile green" data-i18n="galleryGate" data-image="assets/festivalgate.jpeg">Festival Gate</div>
+        <div class="gallery-tile dark" data-i18n="galleryCamping" data-image="assets/campingarea.jpeg">Camping Area</div>
+        <div class="gallery-tile sun" data-i18n="gallerySunset" data-image="assets/sunsetset.jpeg">Sunset Set</div>
+      </div>
+      <footer class="page-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+
+    <section class="page app-page hidden" id="aboutPage">
+      <article class="about-band">
+        <p class="eyebrow" data-i18n="aboutEyebrow">About Us</p>
+        <h1 data-i18n="aboutTitle">Built for festival hunters.</h1>
+        <p data-i18n="aboutIntro">NIGAKU stands for Next Interactive Gateway for Access to Konser Universe. It helps festival lovers find tickets for local and international festivals in one simple place, with clear event choices and an easy path from browsing to booking.</p>
+        <div class="about-contact">
+          <div>
+            <span data-i18n="aboutAdminLabel">Admin</span>
+            <strong>Desra, Fikri, Malik</strong>
+          </div>
+          <div>
+            <span data-i18n="aboutPhoneLabel">Phone</span>
+            <strong>+62 813-6767-6767</strong>
+          </div>
+          <div>
+            <span>Email</span>
+            <strong>nigaku@gmail.com</strong>
+          </div>
+        </div>
+      </article>
+      <footer class="page-footer">
+        <p>Copyright &copy; 2026 NIGAKU by Kelompok 3. All rights reserved.</p>
+        <p>Next Interactive Gateway for Access to Konser Universe.</p>
+        <p>This page is protected by Google security check to ensure you're not a bot.</p>
+      </footer>
+    </section>
+
+    <section class="page app-page profile-page hidden" id="profilePage">
+      <div class="profile-card">
+        <div class="card-topline profile-heading">
+          <button class="text-button back-button" id="profileBackButton" type="button">
+            <span class="back-icon" aria-hidden="true"></span>
+          </button>
+          <p class="eyebrow" data-i18n="profileTitle">Profile</p>
+        </div>
+        <div class="profile-photo-wrap">
+          <img class="profile-photo-large" id="profilePhotoLarge" src="assets/IMG_7063.png" alt="Profile photo">
+          <button class="edit-photo-button" id="editPhotoButton" type="button" aria-label="Change profile photo">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 20h4.3L19.6 8.7a2.1 2.1 0 0 0 0-3L18.3 4.4a2.1 2.1 0 0 0-3 0L4 15.7V20Zm2-3.5 10.8-10.8 1.5 1.5L7.5 18H6v-1.5Z"></path>
+            </svg>
+          </button>
+          <input class="hidden" id="profilePhotoInput" type="file" accept="image/*">
+        </div>
+        <h2 id="profileName">Kelompok 3</h2>
+        <p id="profileEmail">kelompok3@gmail.com</p>
+        <p id="profilePhone">Phone number: -</p>
+        <div class="profile-language">
+          <span data-i18n="profileLanguage">Language</span>
+          <div class="profile-language-actions">
+            <button class="secondary-button" type="button" data-profile-language="en">English</button>
+            <button class="secondary-button" type="button" data-profile-language="id">Indonesia</button>
+          </div>
+        </div>
+        <button class="secondary-button" id="resetPasswordButton" type="button" data-i18n="resetPassword">Reset Password</button>
+        <button class="secondary-button" id="changeAccountButton" type="button" data-i18n="changeAccount">Change Account</button>
+        <button class="danger-button" id="signOutButton" type="button" data-i18n="signOut">Sign Out</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop hidden" id="rulesModal" role="dialog" aria-modal="true" aria-labelledby="rulesTitle">
+    <section class="rules-modal">
+      <button class="modal-close" id="closeRulesButton" type="button" aria-label="Close notice">X</button>
+      <p class="eyebrow" data-i18n="rulesEyebrow">Important Notice</p>
+      <h2 id="rulesTitle">18+ Entry and Festival Rules</h2>
+      <p id="rulesIntro">This website is intended for visitors aged 18 and above.</p>
+      <ul id="rulesList">
+        <li>Tickets are personal and must match the buyer identity at entry.</li>
+        <li>Bring a valid ID and follow the organizer security screening.</li>
+        <li>Outside food, drinks, weapons, and illegal substances are not allowed.</li>
+        <li>Respect other visitors, staff, artists, and venue property.</li>
+        <li>Event schedules, gates, and refund policies can change by organizer decision.</li>
+      </ul>
+      <button class="primary-button" id="acceptCookiesButton" type="button">Accept Cookies</button>
+    </section>
+  </div>
+
+  <div class="toast hidden" id="toast"></div>
+  <div class="gallery-lightbox hidden" id="galleryLightbox" role="dialog" aria-modal="true" aria-labelledby="galleryLightboxTitle">
+    <div class="gallery-lightbox-header">
+      <button class="text-button back-button" id="galleryLightboxBack" type="button" aria-label="Back to gallery">
+        <span class="back-icon" aria-hidden="true"></span>
+      </button>
+      <p class="eyebrow" id="galleryLightboxTitle">Gallery</p>
+    </div>
+    <div class="gallery-lightbox-photo" id="galleryLightboxPhoto"></div>
+  </div>
+  <div class="print-ticket-sheet" id="printTicketSheet" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
