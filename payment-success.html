@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIGAKU</title>
+  <link rel="icon" type="image/png" href="assets/Asset/NigakuIcon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="payment-success">
+<main class="app-shell"><header class="top-nav" id="topNav">
+  <a class="nav-brand logo-wordmark" href="index.html">NIGAKU</a>
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="index.html" data-i18n="navTicket">Tickets</a>
+    <a href="merchandise.html" data-i18n="navMerchandise">Merch</a>
+    <a href="gallery.html" data-i18n="navGallery">Gallery</a>
+    <a href="about.html" data-i18n="navAbout">About Us</a>
+  </nav>
+  <button class="profile-button" id="profileButton" type="button" aria-label="Open profile">
+    <img src="assets/Profile/IMG_7063.png" alt="Profile">
+  </button>
+</header><section class="page app-page" id="paymentSuccessPage"><article class="checkout-card success-card"><h1 data-i18n="paymentSuccess">Payment Successful</h1><p id="successAmount"></p><p id="successCountdown">Your ticket will appear in <strong id="countdownNumber">3</strong> seconds.</p><button class="primary-button hidden" id="successBackButton" type="button">Back to Merch</button></article></section></main>
+<div class="toast hidden" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

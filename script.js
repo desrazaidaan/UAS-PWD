@@ -2,47 +2,47 @@ const dummyUser = { username: "Kelompok 3", email: "kelompok3@gmail.com", passwo
 
 const festivalData = {
   international: [
-    { name: "Coachella 2026", place: "Indio, USA", date: "10-12 & 17-19 Apr 2026", price: "From official waitlist", lineup: "Sabrina Carpenter, Justin Bieber, Karol G", genre: "Pop, hip-hop, EDM, indie", summary: "A bucket-list desert festival with huge pop headliners, fashion moments, art installations, and two packed weekends in California.", ticketUrl: "https://www.coachella.com/", officialUrl: "https://www.coachella.com/", image: "assets/coachella.PNG" },
-    { name: "Tomorrowland Belgium 2026", place: "Boom, Belgium", date: "17-19 & 24-26 Jul 2026", price: "Sold out / official info", lineup: "Martin Garrix, Calvin Harris, The Chainsmokers", genre: "EDM, house, techno", summary: "One of the world's biggest electronic music festivals, known for cinematic stages, DreamVille, and massive global EDM crowds.", ticketUrl: "https://belgium.tomorrowland.com/", officialUrl: "https://belgium.tomorrowland.com/", image: "assets/tommorowland.PNG" },
-    { name: "Lollapalooza", place: "Chicago, USA", date: "30 Jul - 2 Aug 2026", price: "Official site", lineup: "Pop, rock, hip-hop, EDM acts", genre: "Pop, rock, hip-hop, EDM", summary: "A major multi-genre city festival with global editions, big-name artists, and a classic Grant Park festival atmosphere.", ticketUrl: "https://www.lollapalooza.com/", officialUrl: "https://www.lollapalooza.com/", image: "assets/lollapalgza.PNG" },
-    { name: "Glastonbury", place: "Somerset, UK", date: "2026 fallow year", price: "No 2026 tickets", lineup: "Legendary past performers: Adele, David Bowie, Coldplay", genre: "Rock, pop, electronic, performing arts", summary: "A legendary UK festival, but the official site says 2026 is a fallow year, so this is listed as reference only.", ticketUrl: "", officialUrl: "https://www.glastonburyfestivals.co.uk/", image: "assets/glastonbury.PNG" },
-    { name: "EDC Las Vegas", place: "Las Vegas, USA", date: "May 2026", price: "Official site", lineup: "Tiesto, Armin van Buuren, Illenium", genre: "EDM", summary: "A massive electronic dance carnival with neon stages, rides, fireworks, and one of America's biggest EDM crowds.", ticketUrl: "https://lasvegas.electricdaisycarnival.com/", officialUrl: "https://lasvegas.electricdaisycarnival.com/", image: "assets/edclasvegas.jpeg" },
-    { name: "Ultra Music Festival Miami", place: "Miami, USA", date: "Mar 2026", price: "Official site", lineup: "Hardwell, David Guetta, Afrojack", genre: "EDM, house, techno", summary: "Miami's iconic electronic festival, famous for high-energy DJ sets and a global dance music audience.", ticketUrl: "https://ultramusicfestival.com/", officialUrl: "https://ultramusicfestival.com/", image: "assets/ultramusicfestivalmiami.PNG" },
-    { name: "Burning Man", place: "Black Rock Desert, Nevada", date: "Aug-Sep 2026", price: "Official site", lineup: "Art, music, camps, survival culture", genre: "Art, experimental, electronic", summary: "More than a music festival: Burning Man is an art-driven temporary city built around creativity, community, and radical self-expression.", ticketUrl: "https://burningman.org/", officialUrl: "https://burningman.org/", image: "assets/burningman.WEBP" }
+    { name: "Coachella 2026", place: "Indio, USA", date: "10-12 & 17-19 Apr 2026", price: "From US$649", lineup: "Sabrina Carpenter, Justin Bieber, Karol G", genre: "Pop, hip-hop, EDM, indie", summary: "A bucket-list desert festival with huge pop headliners, fashion moments, art installations, and two packed weekends in California.", ticketUrl: "https://www.coachella.com/", officialUrl: "https://www.coachella.com/", image: "assets/International/coachella.PNG" },
+    { name: "Tomorrowland Belgium 2026", place: "Boom, Belgium", date: "17-19 & 24-26 Jul 2026", price: "From €129", lineup: "Martin Garrix, Calvin Harris, The Chainsmokers", genre: "EDM, house, techno", summary: "One of the world's biggest electronic music festivals, known for cinematic stages, DreamVille, and massive global EDM crowds.", ticketUrl: "https://belgium.tomorrowland.com/", officialUrl: "https://belgium.tomorrowland.com/", image: "assets/International/tommorowland.PNG" },
+    { name: "Lollapalooza", place: "Chicago, USA", date: "30 Jul - 2 Aug 2026", price: "From US$399", lineup: "Pop, rock, hip-hop, EDM acts", genre: "Pop, rock, hip-hop, EDM", summary: "A major multi-genre city festival with global editions, big-name artists, and a classic Grant Park festival atmosphere.", ticketUrl: "https://www.lollapalooza.com/", officialUrl: "https://www.lollapalooza.com/", image: "assets/International/lollapalgza.PNG" },
+    { name: "Glastonbury", place: "Somerset, UK", date: "2026 fallow year", price: "No 2026 tickets", lineup: "Legendary past performers: Adele, David Bowie, Coldplay", genre: "Rock, pop, electronic, performing arts", summary: "A legendary UK festival, but the official site says 2026 is a fallow year, so this is listed as reference only.", ticketUrl: "", officialUrl: "https://www.glastonburyfestivals.co.uk/", image: "assets/International/glastonbury.PNG" },
+    { name: "EDC Las Vegas", place: "Las Vegas, USA", date: "May 2026", price: "From US$339", lineup: "Tiesto, Armin van Buuren, Illenium", genre: "EDM", summary: "A massive electronic dance carnival with neon stages, rides, fireworks, and one of America's biggest EDM crowds.", ticketUrl: "https://lasvegas.electricdaisycarnival.com/", officialUrl: "https://lasvegas.electricdaisycarnival.com/", image: "assets/International/edclasvegas.jpeg" },
+    { name: "Ultra Music Festival Miami", place: "Miami, USA", date: "Mar 2026", price: "From US$399.95", lineup: "Hardwell, David Guetta, Afrojack", genre: "EDM, house, techno", summary: "Miami's iconic electronic festival, famous for high-energy DJ sets and a global dance music audience.", ticketUrl: "https://ultramusicfestival.com/", officialUrl: "https://ultramusicfestival.com/", image: "assets/International/ultramusicfestivalmiami.PNG" },
+    { name: "Burning Man", place: "Black Rock Desert, Nevada", date: "Aug-Sep 2026", price: "From US$675", lineup: "Art, music, camps, survival culture", genre: "Art, experimental, electronic", summary: "More than a music festival: Burning Man is an art-driven temporary city built around creativity, community, and radical self-expression.", ticketUrl: "https://burningman.org/", officialUrl: "https://burningman.org/", image: "assets/International/burningman.WEBP" }
   ],
   local: [
-    { name: "Hammersonic Festival 2026", place: "Jakarta", date: "2-3 May 2026", price: "Official tickets", lineup: "Parkway Drive, Jinjer, Counterparts, Of Mice & Men, Dashboard Confessional, Hawthorne Heights, New Found Glory", genre: "Rock, metal, hardcore", summary: "Indonesia's loudest rock and metal festival, bringing international heavy bands and a massive Jakarta crowd.", ticketUrl: "https://www.hammersonic.com/tickets.html", officialUrl: "https://www.hammersonic.com/", image: "assets/hammersonic.jpeg" },
-    { name: "LaLaLa Festival 2026", place: "JIExpo Jakarta", date: "22-23 Aug 2026", price: "Official site", lineup: "Rex Orange County, Steve Lacy, Kodaline, Two Door Cinema Club, Summer Salt, Lee Seung Yoon", genre: "Indie, pop, alternative", summary: "A dreamy Jakarta festival for indie and pop fans, mixing international names with a relaxed festival mood.", ticketUrl: "https://www.lalalafest.com/", officialUrl: "https://www.lalalafest.com/", image: "assets/lalalafest.PNG" },
-    { name: "Soundrenaline 2026", place: "Jakarta, Makassar, Palembang, Yogyakarta, Bandung", date: "Jul-Nov 2026", price: "Official tickets", lineup: "Phase 1 lineup revealed gradually", genre: "Multi-genre", summary: "A multi-city Indonesian festival tour with different local scenes, big stages, and genre-spanning lineups.", ticketUrl: "https://www.soundrenaline.id/", officialUrl: "https://www.soundrenaline.id/", image: "assets/soundrenaline.PNG" },
-    { name: "Boardang Boarding Fest 2026", place: "Edutown Arena, BSD Tangerang", date: "4-5 Jul 2026", price: "From Rp 145.000", lineup: "Local multi-genre artists", genre: "Indie, electronic, acoustic", summary: "A two-day local festival with a travel-inspired concept, outdoor stages, food stalls, and a relaxed weekend vibe.", ticketUrl: "https://www.boardangboarding.com/", officialUrl: "https://www.boardangboarding.com/", image: "assets/boardangboarding.jpeg" },
-    { name: "Allo Bank Festival 2026", place: "Indonesia Arena GBK", date: "20 Jun 2026", price: "From Rp 490.000", lineup: "CORTIS, Mahalini, Rizky Febian", genre: "Pop, K-pop, Indonesian pop", summary: "A big Jakarta arena festival combining Indonesian pop acts with international/K-pop energy and official ticketing.", ticketUrl: "https://ticket.allobankfest.com/", officialUrl: "https://ticket.allobankfest.com/", image: "assets/allobank.PNG" },
-    { name: "SOD Festival 2026", place: "Surabaya", date: "1-2 Aug 2026", price: "Official site", lineup: "Multi-genre nostalgia, pop, indie", genre: "Pop, indie, nostalgia", summary: "A Surabaya festival focused on multi-genre nostalgia and easygoing crowd energy.", ticketUrl: "https://sodfestival.com/", officialUrl: "https://sodfestival.com/", image: "assets/sodfestival.PNG" }
+    { name: "Hammersonic Festival 2026", place: "Jakarta", date: "2-3 May 2026", price: "Rp 550.000", lineup: "Parkway Drive, Jinjer, Counterparts, Of Mice & Men, Dashboard Confessional, Hawthorne Heights, New Found Glory", genre: "Rock, metal, hardcore", summary: "Indonesia's loudest rock and metal festival, bringing international heavy bands and a massive Jakarta crowd.", ticketUrl: "https://www.hammersonic.com/tickets.html", officialUrl: "https://www.hammersonic.com/", image: "assets/Local/hammersonic.jpeg" },
+    { name: "LaLaLa Festival 2026", place: "JIExpo Jakarta", date: "22-23 Aug 2026", price: "From Rp 1.250.000", lineup: "Rex Orange County, Steve Lacy, Kodaline, Two Door Cinema Club, Summer Salt, Lee Seung Yoon", genre: "Indie, pop, alternative", summary: "A dreamy Jakarta festival for indie and pop fans, mixing international names with a relaxed festival mood.", ticketUrl: "https://www.lalalafest.com/", officialUrl: "https://www.lalalafest.com/", image: "assets/Local/lalalafest.PNG" },
+    { name: "Soundrenaline 2026", place: "Jakarta, Makassar, Palembang, Yogyakarta, Bandung", date: "Jul-Nov 2026", price: "From Rp 350.000", lineup: "Phase 1 lineup revealed gradually", genre: "Multi-genre", summary: "A multi-city Indonesian festival tour with different local scenes, big stages, and genre-spanning lineups.", ticketUrl: "https://www.soundrenaline.id/", officialUrl: "https://www.soundrenaline.id/", image: "assets/Local/soundrenaline.PNG" },
+    { name: "Boardang Boarding Fest 2026", place: "Edutown Arena, BSD Tangerang", date: "4-5 Jul 2026", price: "From Rp 145.000", lineup: "Local multi-genre artists", genre: "Indie, electronic, acoustic", summary: "A two-day local festival with a travel-inspired concept, outdoor stages, food stalls, and a relaxed weekend vibe.", ticketUrl: "https://www.boardangboarding.com/", officialUrl: "https://www.boardangboarding.com/", image: "assets/Local/boardangboarding.jpeg" },
+    { name: "Allo Bank Festival 2026", place: "Indonesia Arena GBK", date: "20 Jun 2026", price: "From Rp 490.000", lineup: "CORTIS, Mahalini, Rizky Febian", genre: "Pop, K-pop, Indonesian pop", summary: "A big Jakarta arena festival combining Indonesian pop acts with international/K-pop energy and official ticketing.", ticketUrl: "https://ticket.allobankfest.com/", officialUrl: "https://ticket.allobankfest.com/", image: "assets/Local/allobank.PNG" },
+    { name: "SOD Festival 2026", place: "Surabaya", date: "1-2 Aug 2026", price: "From Rp 150.000", lineup: "Multi-genre nostalgia, pop, indie", genre: "Pop, indie, nostalgia", summary: "A Surabaya festival focused on multi-genre nostalgia and easygoing crowd energy.", ticketUrl: "https://sodfestival.com/", officialUrl: "https://sodfestival.com/", image: "assets/Local/sodfestival.PNG" }
   ]
 };
 
 const merchandiseData = [
-  { name: "NIGAKU Desert Tee", nameId: "Kaus Desert NIGAKU", place: "Unisex", placeId: "Uniseks", date: "All Size", dateId: "Semua Ukuran", price: "Rp 180.000" },
-  { name: "Festival Tote Bag", nameId: "Tas Tote Festival", place: "Canvas", placeId: "Kanvas", date: "Limited", dateId: "Terbatas", price: "Rp 95.000" },
-  { name: "Wristband Pack", nameId: "Paket Gelang Festival", place: "3 Pieces", placeId: "3 Buah", date: "Glow", dateId: "Menyala", price: "Rp 70.000" },
-  { name: "NIGAKU Cap", nameId: "Topi NIGAKU", place: "Adjustable", placeId: "Bisa Diatur", date: "Green", dateId: "Hijau", price: "Rp 135.000" },
-  { name: "Lineup Poster", nameId: "Poster Lineup", place: "18 x 24", placeId: "18 x 24", date: "Collectible", dateId: "Koleksi", price: "Rp 120.000" },
-  { name: "Festival Hoodie", nameId: "Hoodie Festival", place: "Oversized", placeId: "Oversized", date: "Pre-order", dateId: "Praorder", price: "Rp 320.000" }
+  { name: "NIGAKU Desert Tee", nameId: "Kaus Desert NIGAKU", place: "Unisex", placeId: "Uniseks", date: "All Size", dateId: "Semua Ukuran", price: "Rp 180.000", image: "assets/Merchandise/nigakudeserttee.png" },
+  { name: "Festival Tote Bag", nameId: "Tas Tote Festival", place: "Canvas", placeId: "Kanvas", date: "Limited", dateId: "Terbatas", price: "Rp 95.000", image: "assets/Merchandise/Festival Tote Bag.png" },
+  { name: "Wristband Pack", nameId: "Paket Gelang Festival", place: "3 Pieces", placeId: "3 Buah", date: "Glow", dateId: "Menyala", price: "Rp 70.000", image: "assets/Merchandise/Wristband Pack.png" },
+  { name: "NIGAKU Cap", nameId: "Topi NIGAKU", place: "Adjustable", placeId: "Bisa Diatur", date: "Green", dateId: "Hijau", price: "Rp 135.000", image: "assets/Merchandise/NIGAKU Cap.png" },
+  { name: "Lineup Poster", nameId: "Poster Lineup", place: "18 x 24", placeId: "18 x 24", date: "Collectible", dateId: "Koleksi", price: "Rp 120.000", image: "assets/Merchandise/Lineup Poster.png" },
+  { name: "Festival Hoodie", nameId: "Hoodie Festival", place: "Oversized", placeId: "Oversized", date: "Pre-order", dateId: "Praorder", price: "Rp 320.000", image: "assets/Merchandise/Festival Hoodie.png" }
 ];
 
 const ticketOptions = {
   "Coachella 2026": [{ name: "General Admission", price: "US$649", note: "Weekend pass" }, { name: "GA + Shuttle", price: "US$779", note: "Weekend pass with shuttle" }, { name: "VIP", price: "US$1,399", note: "VIP weekend pass" }],
-  "Tomorrowland Belgium 2026": [{ name: "Day Pass", price: "Official pricing TBA", note: "Single-day access" }, { name: "Full Madness Pass", price: "Official pricing TBA", note: "Full weekend access" }, { name: "DreamVille Package", price: "See official shop", note: "Festival + camping package" }],
-  "Lollapalooza": [{ name: "4-Day GA", price: "Official pricing TBA", note: "General admission" }, { name: "4-Day GA+", price: "Official pricing TBA", note: "GA with added comfort" }, { name: "4-Day VIP", price: "Official pricing TBA", note: "VIP access" }],
+  "Tomorrowland Belgium 2026": [{ name: "Day Pass", price: "€129", note: "Single-day access" }, { name: "Full Madness Pass", price: "€304", note: "Full weekend access" }, { name: "DreamVille Package", price: "€476", note: "Festival + camping package" }],
+  "Lollapalooza": [{ name: "4-Day GA", price: "US$399", note: "General admission" }, { name: "4-Day GA+", price: "US$735", note: "GA with added comfort" }, { name: "4-Day VIP", price: "US$1,599", note: "VIP access" }],
   "Glastonbury": [{ name: "2026 Tickets", price: "Not available", note: "2026 is a fallow year" }],
-  "EDC Las Vegas": [{ name: "GA", price: "Official pricing TBA", note: "General admission" }, { name: "GA+", price: "Official pricing TBA", note: "Enhanced GA" }, { name: "VIP", price: "Official pricing TBA", note: "VIP experience" }],
-  "Ultra Music Festival Miami": [{ name: "GA", price: "Official pricing TBA", note: "General admission" }, { name: "Premium GA", price: "Official pricing TBA", note: "Premium access" }, { name: "VIP", price: "Official pricing TBA", note: "VIP access" }],
-  "Burning Man": [{ name: "Main Sale Ticket", price: "Official pricing TBA", note: "Standard ticket" }, { name: "Vehicle Pass", price: "Official pricing TBA", note: "Required for vehicles" }],
+  "EDC Las Vegas": [{ name: "GA", price: "US$339", note: "General admission" }, { name: "GA+", price: "US$519", note: "Enhanced GA" }, { name: "VIP", price: "US$969", note: "VIP experience" }],
+  "Ultra Music Festival Miami": [{ name: "GA", price: "US$399.95", note: "General admission" }, { name: "Premium GA", price: "US$649.95", note: "Premium access" }, { name: "VIP", price: "US$1,499.95", note: "VIP access" }],
+  "Burning Man": [{ name: "Main Sale Ticket", price: "US$675", note: "Standard ticket" }, { name: "FOMO Ticket", price: "US$1,500", note: "Higher-tier ticket" }, { name: "Vehicle Pass", price: "US$150", note: "Required for vehicles" }],
   "Hammersonic Festival 2026": [{ name: "2-Day Pass", price: "Rp 550.000", note: "Free standing, excludes tax and services" }],
-  "LaLaLa Festival 2026": [{ name: "Daily Pass", price: "See official ticket page", note: "Single-day access" }, { name: "2-Day Pass", price: "See official ticket page", note: "Full festival access" }],
-  "Soundrenaline 2026": [{ name: "City Pass", price: "See official ticket page", note: "Selected city access" }, { name: "Festival Pass", price: "See official ticket page", note: "Festival access" }],
-  "Boardang Boarding Fest 2026": [{ name: "Daily Pass", price: "From Rp 145.000", note: "Single-day access" }, { name: "2-Day Pass", price: "See official ticket page", note: "Full weekend access" }],
+  "LaLaLa Festival 2026": [{ name: "Daily Pass", price: "Rp 1.250.000", note: "Single-day access" }, { name: "2-Day Pass", price: "Rp 2.200.000", note: "Full festival access" }],
+  "Soundrenaline 2026": [{ name: "City Pass", price: "Rp 350.000", note: "Selected city access" }, { name: "Festival Pass", price: "Rp 650.000", note: "Festival access" }],
+  "Boardang Boarding Fest 2026": [{ name: "Daily Pass", price: "Rp 145.000", note: "Single-day access" }, { name: "2-Day Pass", price: "Rp 250.000", note: "Full weekend access" }],
   "Allo Bank Festival 2026": [{ name: "Festival Pass", price: "From Rp 490.000", note: "Official ticketing" }],
-  "SOD Festival 2026": [{ name: "Daily Pass", price: "See official ticket page", note: "Single-day access" }, { name: "2-Day Pass", price: "See official ticket page", note: "Full festival access" }]
+  "SOD Festival 2026": [{ name: "Daily Pass", price: "Rp 150.000", note: "Single-day access" }, { name: "2-Day Pass", price: "Rp 250.000", note: "Full festival access" }]
 };
 
 const hotels = {
@@ -53,12 +53,28 @@ const hotels = {
 const stageMap = { "Coachella 2026": "Coachella Stage", "Tomorrowland Belgium 2026": "Mainstage", "Hammersonic Festival 2026": "Hammer Stage", default: "Main Stage" };
 
 const SERVICE_RATE = 0.09;
+const AVAILABILITY_DATE = new Date(2026, 5, 5);
+const festivalEndDates = {
+  "Coachella 2026": new Date(2026, 3, 19),
+  "Tomorrowland Belgium 2026": new Date(2026, 6, 26),
+  "Lollapalooza": new Date(2026, 7, 2),
+  "Glastonbury": new Date(2026, 0, 1),
+  "EDC Las Vegas": new Date(2026, 4, 31),
+  "Ultra Music Festival Miami": new Date(2026, 2, 31),
+  "Burning Man": new Date(2026, 8, 30),
+  "Hammersonic Festival 2026": new Date(2026, 4, 3),
+  "LaLaLa Festival 2026": new Date(2026, 7, 23),
+  "Soundrenaline 2026": new Date(2026, 10, 30),
+  "Boardang Boarding Fest 2026": new Date(2026, 6, 5),
+  "Allo Bank Festival 2026": new Date(2026, 5, 20),
+  "SOD Festival 2026": new Date(2026, 7, 2)
+};
 
 const translations = {
   en: {
     navTicket: "Tickets", navMerchandise: "Merch", navGallery: "Gallery", navAbout: "About Us",
     homeEyebrow: "", homeIntro: "Next Interactive Gateway for Access to Konser Universe.",
-    choiceInternationalLabel: "International", choiceInternationalTitle: "Global festival weekends", choiceInternationalDesc: "Singapore, Tokyo, Seoul, Bangkok, and more.", choiceLocalTitle: "Festival Indonesia", choiceLocalDesc: "Jakarta, Bali, Bandung, Jogja, Surabaya, and more.",
+    choiceInternationalLabel: "International", choiceInternationalTitle: "Festival World", choiceInternationalDesc: "Singapore, Tokyo, Seoul, Bangkok, and more.", choiceLocalTitle: "Festival Indonesia", choiceLocalDesc: "Jakarta, Bali, Bandung, Jogja, Surabaya, and more.",
     ticketsEyebrow: "Tickets", pickCategory: "Pick a Category", ticketHeadingInternational: "International Festivals", ticketHeadingLocal: "Local Festivals", buyTicket: "Buy Ticket", downloadTicket: "Download Ticket", buyMerch: "Buy Merch", ticketUnavailable: "Ticket link is not available for this festival.", ticketOpened: "Opening ticket page for", available: "Available", unavailable: "Unavailable", addedCheckout: "added to checkout.",
     rulesTitle: "18+ Entry and Festival Rules", rulesIntro: "This website is intended for visitors aged 18 and above.", rulesEyebrow: "Important Notice", rules: ["Tickets are personal and must match the buyer identity at entry.", "Bring a valid ID and follow the organizer security screening.", "Outside food, drinks, weapons, and illegal substances are not allowed.", "Respect other visitors, staff, artists, and venue property.", "Event schedules, gates, and refund policies can change by organizer decision."], accept: "Accept Cookies",
     officialWebsite: "Official Website", detailDate: "Date", detailLocation: "Location", detailLineup: "Lineup", ticketOptions: "Ticket Options", ticketComingSoon: "Tickets Coming Soon", ticketComingSoonDesc: "Official prices are not available yet. Please check the official website for updates.",
@@ -67,12 +83,12 @@ const translations = {
     merchEyebrow: "Official Merch", merchTitle: "Merch Festival", merchIntro: "Template merch cards for add-ons, apparel, and festival goods.",
     galleryEyebrow: "Moments", galleryTitle: "Gallery", galleryIntro: "Festival moments from the crowd, stage, lights, gates, camping area, and sunset sets.", galleryCrowd: "Crowd Wave", galleryStage: "Main Stage", galleryLight: "Light Show", galleryGate: "Festival Gate", galleryCamping: "Camping Area", gallerySunset: "Sunset Set",
     aboutEyebrow: "About Us", aboutTitle: "Your gateway to festival days worth remembering.", aboutIntro: "NIGAKU stands for Next Interactive Gateway for Access to Konser Universe. It helps festival lovers find tickets for local and international festivals in one simple place, with clear event choices and an easy path from browsing to booking.", aboutAdminLabel: "Admin", aboutPhoneLabel: "Phone",
-    profileLanguage: "Language", profileTitle: "Profile", phoneLabel: "Phone number", resetPassword: "Reset Password", changeAccount: "Change Account", signOut: "Sign Out", cookiesAccepted: "Cookies accepted. Enjoy NIGAKU.", resetPasswordToast: "The reset password form can be added later.", changeAccountToast: "Choose another account to continue.", languageChanged: "Language changed to English."
+    profileLanguage: "Language", profileTitle: "Settings", phoneLabel: "Phone number", resetPassword: "Reset Password", changeAccount: "Change Account", signOut: "Sign Out", cookiesAccepted: "Cookies accepted. Enjoy NIGAKU.", resetPasswordToast: "The reset password form can be added later.", changeAccountToast: "Choose another account to continue.", languageChanged: "Language changed to English."
   },
   id: {
     navTicket: "Tiket", navMerchandise: "Merch", navGallery: "Galeri", navAbout: "Tentang Kami",
     homeEyebrow: "", homeIntro: "Next Interactive Gateway for Access to Konser Universe.",
-    choiceInternationalLabel: "Internasional", choiceInternationalTitle: "Festival dunia", choiceInternationalDesc: "Singapura, Tokyo, Seoul, Bangkok, dan lainnya.", choiceLocalTitle: "Festival Indonesia", choiceLocalDesc: "Jakarta, Bali, Bandung, Jogja, Surabaya, dan lainnya.",
+    choiceInternationalLabel: "Internasional", choiceInternationalTitle: "Festival Dunia", choiceInternationalDesc: "Singapura, Tokyo, Seoul, Bangkok, dan lainnya.", choiceLocalTitle: "Festival Indonesia", choiceLocalDesc: "Jakarta, Bali, Bandung, Jogja, Surabaya, dan lainnya.",
     ticketsEyebrow: "Tiket", pickCategory: "Pilih Kategori", ticketHeadingInternational: "Festival Internasional", ticketHeadingLocal: "Festival Lokal", buyTicket: "Beli Tiket", downloadTicket: "Unduh Tiket", buyMerch: "Beli Merch", ticketUnavailable: "Link tiket belum tersedia untuk festival ini.", ticketOpened: "Membuka halaman tiket untuk", available: "Tersedia", unavailable: "Tidak tersedia", addedCheckout: "ditambahkan ke checkout.",
     rulesTitle: "Akses 18+ dan Peraturan Festival", rulesIntro: "Website ini ditujukan untuk pengunjung berusia 18 tahun ke atas.", rulesEyebrow: "Pemberitahuan Penting", rules: ["Tiket bersifat pribadi dan harus sesuai dengan identitas pembeli saat masuk.", "Bawa kartu identitas yang valid dan ikuti pemeriksaan keamanan dari penyelenggara.", "Makanan, minuman, senjata, dan zat terlarang dari luar area tidak diperbolehkan.", "Hormati pengunjung lain, staf, artis, dan fasilitas venue.", "Jadwal acara, akses gerbang, dan kebijakan refund dapat berubah sesuai keputusan penyelenggara."], accept: "Terima Cookies",
     officialWebsite: "Website Resmi", detailDate: "Tanggal", detailLocation: "Lokasi", detailLineup: "Lineup", ticketOptions: "Pilihan Tiket", ticketComingSoon: "Tiket Segera Tersedia", ticketComingSoonDesc: "Harga resmi belum tersedia. Silakan cek website resmi untuk pembaruan terbaru.",
@@ -81,707 +97,534 @@ const translations = {
     merchEyebrow: "Produk Resmi", merchTitle: "Merchandise", merchIntro: "Template kartu merchandise untuk add-on, pakaian, dan perlengkapan festival.",
     galleryEyebrow: "Momen", galleryTitle: "Galeri", galleryIntro: "Momen festival dari penonton, panggung, cahaya, gerbang, area kemah, dan sesi senja.", galleryCrowd: "Ombak Penonton", galleryStage: "Panggung Utama", galleryLight: "Pertunjukan Cahaya", galleryGate: "Gerbang Festival", galleryCamping: "Area Kemah", gallerySunset: "Sesi Senja",
     aboutEyebrow: "Tentang Kami", aboutTitle: "Gerbang menuju hari festival yang layak dikenang.", aboutIntro: "NIGAKU adalah Next Interactive Gateway for Access to Konser Universe. Website ini membantu pencinta festival menemukan tiket lokal dan internasional dalam satu tempat, dengan pilihan acara yang jelas dan proses pemesanan yang mudah.", aboutAdminLabel: "Admin", aboutPhoneLabel: "Nomor telepon",
-    profileLanguage: "Bahasa", profileTitle: "Profil", phoneLabel: "Nomor telepon", resetPassword: "Atur Ulang Password", changeAccount: "Ganti Akun", signOut: "Keluar", cookiesAccepted: "Cookie diterima. Selamat menikmati NIGAKU.", resetPasswordToast: "Form atur ulang password bisa ditambahkan nanti.", changeAccountToast: "Pilih akun lain untuk melanjutkan.", languageChanged: "Bahasa diubah ke Indonesia."
+    profileLanguage: "Bahasa", profileTitle: "Pengaturan", phoneLabel: "Nomor telepon", resetPassword: "Atur Ulang Password", changeAccount: "Ganti Akun", signOut: "Keluar", cookiesAccepted: "Cookie diterima. Selamat menikmati NIGAKU.", resetPasswordToast: "Form atur ulang password bisa ditambahkan nanti.", changeAccountToast: "Pilih akun lain untuk melanjutkan.", languageChanged: "Bahasa diubah ke Indonesia."
   }
 };
 
-let currentUser = { ...dummyUser }, activeCategory = "", activeLanguage = "en", failedSignInAttempts = 0, isSignedIn = false, ticketSearchQuery = "";
+let currentUser = readJSON("nigakuUser", dummyUser);
+let activeLanguage = sessionStorage.getItem("nigakuLanguage") || "en";
+let activeCategory = sessionStorage.getItem("nigakuCategory") || "international";
+let selectedFestivalName = sessionStorage.getItem("nigakuFestivalName") || festivalData[activeCategory]?.[0]?.name || "Coachella 2026";
+let selectedTicketIndex = Number(sessionStorage.getItem("nigakuTicketIndex") || 0);
+let selectedMerchIndex = Number(sessionStorage.getItem("nigakuMerchIndex") || 0);
+let signinAttempts = Number(sessionStorage.getItem("nigakuSigninAttempts") || 0);
 
-const $ = (selector, root = document) => root.querySelector(selector);
-const $$ = (selector, root = document) => root.querySelectorAll(selector);
-const setText = (selector, value) => { $(selector).textContent = value; };
-const on = (selector, event, handler) => { $(selector).addEventListener(event, handler); };
-const fillText = (entries) => { entries.forEach(([selector, value]) => setText(selector, value)); };
+const page = document.body.dataset.page || "home";
+const routes = {
+  home: "index.html",
+  tickets: "tickets.html",
+  detail: "festival-detail.html",
+  checkout: "checkout.html",
+  payment: "payment-method.html",
+  qris: "qris.html",
+  success: "payment-success.html",
+  visual: "ticket-visual.html",
+  merch: "merchandise.html",
+  gallery: "gallery.html",
+  about: "about.html",
+  profile: "profile.html"
+};
+const navigationEntry = performance.getEntriesByType?.("navigation")?.[0];
+if (navigationEntry?.type === "reload") sessionStorage.removeItem("nigakuTransactions");
 
-const authScreen = $("#authScreen"), appShell = $("#appShell"), signinTab = $("#signinTab"), signupTab = $("#signupTab"), signinForm = $("#signinForm"), signupForm = $("#signupForm"), resetForm = $("#resetForm"), signinError = $("#signinError"), resetError = $("#resetError"), languageGate = $("#languageGate"), rulesModal = $("#rulesModal"), toast = $("#toast"), pages = $$(".app-page"), profilePhotoInput = $("#profilePhotoInput"), navSearch = $("#navSearch"), ticketSearchInput = $("#ticketSearchInput"), galleryLightbox = $("#galleryLightbox"), galleryLightboxPhoto = $("#galleryLightboxPhoto"), galleryLightboxTitle = $("#galleryLightboxTitle");
-let activeFestival = null, activeTicket = null, detailBackRoute = "tickets", checkoutTotalText = "", paymentRedirectTimer = null, galleryCloseTimer = null;
-const appRoutes = new Set(["language", "home", "tickets", "festivalDetail", "checkout", "paymentMethod", "qris", "paymentSuccess", "ticketVisual", "merchandise", "gallery", "about", "profile"]);
-
-function updateHistoryState(state, replace = false) {
-  const hash = state.screen === "auth" ? state.mode : state.route;
-  const method = replace ? "replaceState" : "pushState";
-  history[method](state, "", `#${hash}`);
+function $(selector, root = document) { return root.querySelector(selector); }
+function $$(selector, root = document) { return Array.from(root.querySelectorAll(selector)); }
+function setText(selector, value, root = document) { const el = $(selector, root); if (el) el.textContent = value ?? ""; }
+function show(el) { if (el) el.classList.remove("hidden"); }
+function hide(el) { if (el) el.classList.add("hidden"); }
+function readJSON(key, fallback) { try { return JSON.parse(sessionStorage.getItem(key)) ?? fallback; } catch { return fallback; } }
+function writeJSON(key, value) { sessionStorage.setItem(key, JSON.stringify(value)); }
+function go(route) { window.location.href = route; }
+function allFestivals() { return [...festivalData.international, ...festivalData.local]; }
+function getFestival(name = selectedFestivalName) { return allFestivals().find((item) => item.name === name) || festivalData[activeCategory]?.[0] || festivalData.international[0]; }
+function getTickets(festival = getFestival()) { return ticketOptions[festival.name] || [{ name: "General Admission", price: festival.price, note: "Festival access" }]; }
+function getTicket(festival = getFestival()) { return getTickets(festival)[selectedTicketIndex] || getTickets(festival)[0]; }
+function purchaseType() { return sessionStorage.getItem("nigakuPurchaseType") || "ticket"; }
+function getMerchItem() { return merchandiseData[selectedMerchIndex] || merchandiseData[0]; }
+function merchName(item = getMerchItem()) { return activeLanguage === "id" ? item.nameId : item.name; }
+function merchDetail(item = getMerchItem()) { return `${activeLanguage === "id" ? item.placeId : item.place} - ${activeLanguage === "id" ? item.dateId : item.date}`; }
+function categoryOf(festival) { return festivalData.local.includes(festival) ? "local" : "international"; }
+function moneyNumber(text) {
+  const raw = String(text || "");
+  if (raw.includes("Rp")) return Number(raw.replace(/[^0-9]/g, "") || 0);
+  const value = raw.replace(/[^0-9.]/g, "").replace(/,(?=\d{3})/g, "");
+  return Number(value || 0);
 }
-
-function setAuthMode(mode, updateHistory = true) {
-  const isSignin = mode === "signin";
-  const isSignup = mode === "signup";
-  const isReset = mode === "reset";
-  signinTab.classList.toggle("active", isSignin);
-  signupTab.classList.toggle("active", isSignup);
-  signinForm.classList.toggle("active", isSignin);
-  signupForm.classList.toggle("active", isSignup);
-  resetForm.classList.toggle("active", isReset);
-  signinTab.parentElement.classList.toggle("signup-active", isSignup);
-  signinTab.parentElement.classList.toggle("reset-active", isReset);
-  signinError.textContent = "";
-  resetError.textContent = "";
-
-  if (updateHistory) {
-    updateHistoryState({ screen: "auth", mode });
+function formatRupiah(value) { return `Rp ${Math.round(value).toLocaleString("id-ID")}`; }
+function formatTicketMoney(price, value) {
+  if (String(price).includes("US$")) return `US$${value.toLocaleString("en-US", { minimumFractionDigits: price.includes(".") ? 2 : 0, maximumFractionDigits: 2 })}`;
+  if (String(price).includes("€")) return `€${value.toLocaleString("de-DE", { minimumFractionDigits: 0, maximumFractionDigits: 2 })}`;
+  return formatRupiah(value);
+}
+function isUnavailable(festival) {
+  const end = festivalEndDates[festival.name];
+  return !festival.ticketUrl || festival.name === "Glastonbury" || (end && end < AVAILABILITY_DATE);
+}
+function ticketTotalText(ticket, qty) {
+  const n = moneyNumber(ticket.price);
+  if (!n) return ticket.price;
+  const total = n * qty;
+  const fee = Math.round(total * SERVICE_RATE);
+  return formatTicketMoney(ticket.price, total + fee);
+}
+function merchTotalText(item, qty) {
+  const n = moneyNumber(item.price);
+  return n ? formatTicketMoney(item.price, n * qty) : item.price;
+}
+function currentTotalText() {
+  const stored = sessionStorage.getItem("nigakuTotalText");
+  if (stored && stored !== "-") return stored;
+  if (purchaseType() === "merch") {
+    const item = getMerchItem();
+    const qty = Number(sessionStorage.getItem("nigakuQty") || 1);
+    const total = merchTotalText(item, qty);
+    sessionStorage.setItem("nigakuTotalText", total);
+    return total;
   }
+  const festival = getFestival();
+  const ticket = getTicket(festival);
+  const qty = Number(sessionStorage.getItem("nigakuQty") || 1);
+  const total = ticketTotalText(ticket, qty);
+  sessionStorage.setItem("nigakuTotalText", total);
+  return total;
 }
-
-function showToast(message) {
-  toast.textContent = message;
-  toast.classList.remove("hidden");
-  window.setTimeout(() => toast.classList.add("hidden"), 2600);
+function heroTextClass(festival) {
+  const lightText = new Set(["Tomorrowland Belgium 2026", "LaLaLa Festival 2026", "Soundrenaline 2026", "Boardang Boarding Fest 2026", "Allo Bank Festival 2026", "SOD Festival 2026", "EDC Las Vegas", "Burning Man"]);
+  return lightText.has(festival.name) ? "text-light" : "text-dark";
 }
-
-function renderPage(route) {
-  const safeRoute = appRoutes.has(route) ? route : "home";
-  pages.forEach((page) => page.classList.add("hidden"));
-  const page = safeRoute === "language" ? languageGate : $(`#${safeRoute}Page`);
-  if (page) {
-    page.classList.remove("hidden");
-  }
-
-  $$("[data-route]").forEach((link) => {
-    link.classList.toggle("active", link.dataset.route === safeRoute && link.getAttribute("href") !== "#home");
-  });
-
-  navSearch.classList.toggle("visible", safeRoute === "tickets" && Boolean(activeCategory));
-
-  if (safeRoute !== "tickets") {
-    navSearch.classList.remove("open");
-  }
-
-  window.scrollTo({ top: 0, behavior: "auto" });
+function imagePosition(festival) {
+  const positions = {
+    "Coachella 2026": "center 52%",
+    "Tomorrowland Belgium 2026": "center 50%",
+    "Lollapalooza": "center 58%",
+    "Glastonbury": "center 54%",
+    "EDC Las Vegas": "center 52%",
+    "Ultra Music Festival Miami": "center 56%",
+    "Burning Man": "center 52%",
+    "Hammersonic Festival 2026": "center 50%",
+    "LaLaLa Festival 2026": "center 52%",
+    "Soundrenaline 2026": "center 52%",
+    "Boardang Boarding Fest 2026": "center 50%",
+    "Allo Bank Festival 2026": "center 52%",
+    "SOD Festival 2026": "center 52%"
+  };
+  return positions[festival.name] || "center";
 }
-
-function showPage(route, updateHistory = true) {
-  renderPage(route);
-  if (updateHistory) updateHistoryState({ screen: "app", route });
-}
-
-function signIn(user) {
-  isSignedIn = true;
-  currentUser = user;
-  updateProfile();
-  authScreen.classList.add("hidden");
-  appShell.classList.remove("hidden");
-  renderPage("language");
-  updateHistoryState({ screen: "app", route: "language" }, true);
-  updateHistoryState({ screen: "app", route: "language" });
-}
-
-function updateProfile() {
-  const copy = translations[activeLanguage];
-  fillText([
-    ["#profileName", currentUser.username || "New User"],
-    ["#profileEmail", currentUser.email],
-    ["#profilePhone", `${copy.phoneLabel}: ${currentUser.phone || "-"}`]
-  ]);
-}
-
-function getItemText(item, key) {
-  return activeLanguage === "id" && item[`${key}Id`] ? item[`${key}Id`] : item[key];
+function openMaps(place) { window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place)}`, "_blank"); }
+function toast(message) {
+  const el = $("#toast");
+  if (!el) return;
+  el.textContent = message;
+  show(el);
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(() => hide(el), 2200);
 }
 
 function updateStaticCopy() {
-  const copy = translations[activeLanguage];
-  $$("[data-i18n]").forEach((element) => {
-    const key = element.dataset.i18n;
-    if (copy[key]) {
-      element.textContent = copy[key];
-    }
+  const lang = translations[activeLanguage] || translations.en;
+  $$(`[data-i18n]`).forEach((node) => {
+    const key = node.dataset.i18n;
+    const value = lang[key];
+    if (typeof value === "string") node.textContent = value;
   });
-  fillText([
-    ["#rulesTitle", copy.rulesTitle],
-    ["#rulesIntro", copy.rulesIntro],
-    ["#acceptCookiesButton", copy.accept]
-  ]);
-  $("#rulesList").innerHTML = copy.rules.map((rule) => `<li>${rule}</li>`).join("");
-  updateProfile();
+  const rules = $("#rulesList");
+  if (rules && Array.isArray(lang.rules)) rules.innerHTML = lang.rules.map((item) => `<li>${item}</li>`).join("");
+  document.documentElement.lang = activeLanguage === "id" ? "id" : "en";
 }
 
-function createCard(item, actionLabel, backRoute = "tickets") {
-  const copy = translations[activeLanguage];
-  const name = getItemText(item, "name");
-  const place = getItemText(item, "place");
-  const date = getItemText(item, "date");
-  const firstTicket = ticketOptions[item.name]?.[0]?.price || item.price;
-  const card = document.createElement("article");
-  card.className = "event-card";
-  card.innerHTML = `
-    <div class="event-art" ${item.image ? `style='background-image:linear-gradient(180deg,rgba(10,52,65,0.06),rgba(10,52,65,0.64)),url("${item.image}")'` : ""}>${name}</div>
-    <div class="event-body">
-      <p>${place} - ${date}</p>
-      <div class="card-meta">
-        <span>${firstTicket}</span>
-        <span>${item.ticketUrl ? copy.available : copy.unavailable}</span>
-      </div>
-      <button class="primary-button" type="button">${actionLabel}</button>
-    </div>
-  `;
-  card.addEventListener("click", () => showFestivalDetail(item, true, backRoute));
-  card.querySelector("button").addEventListener("click", (event) => {
-    event.stopPropagation();
-    showFestivalDetail(item, true, backRoute);
-  });
-  return card;
+function setupCommon() {
+  document.body.classList.toggle("home-video-active", page === "home");
+  updateStaticCopy();
+  $("#profileButton")?.addEventListener("click", () => go(routes.profile));
+  const syncScrollState = () => {
+    const scrolled = window.scrollY > 8;
+    $("#topNav")?.classList.toggle("is-visible", scrolled);
+    document.body.classList.toggle("home-scrolled", page === "home" && scrolled);
+  };
+  syncScrollState();
+  window.addEventListener("scroll", syncScrollState, { passive: true });
 }
 
-function showFestivalDetail(item, updateHistory = true, backRoute = detailBackRoute) {
-  const copy = translations[activeLanguage];
-  const options = ticketOptions[item.name] || [];
-  activeFestival = item;
-  detailBackRoute = backRoute;
-  fillText([
-    ["#detailTitle", item.name],
-    ["#detailGenre", item.genre],
-    ["#detailSummary", item.summary],
-    ["#detailDateValue", item.date],
-    ["#detailPlaceValue", item.place],
-    ["#detailLineupValue", item.lineup],
-    ["#detailOfficialButton", copy.officialWebsite]
-  ]);
-  $("#detailHero").style.backgroundImage = `linear-gradient(90deg,rgba(251,247,238,0.54),rgba(251,247,238,0.16) 48%,rgba(251,247,238,0.04)),url("${item.image}")`;
-  $("#ticketOptionList").innerHTML = options.length ? options.map((ticket, index) => {
-    const canBuy = priceValue(ticket.price);
+function setupAuth() {
+  const auth = $("#authScreen");
+  const app = $("#appShell");
+  const gate = $("#languageGate");
+  const home = $("#homePage");
+  const mode = sessionStorage.getItem("nigakuAuthMode") || "signin";
+  const signedIn = sessionStorage.getItem("nigakuSignedIn") === "true";
 
-    return `
-    <article class="ticket-option-card">
-      <div>
-        <h3>${ticket.name}</h3>
-        <p>${ticket.note}</p>
-        <strong>${ticket.price}</strong>
-      </div>
-      ${canBuy ? `<button class="primary-button" type="button" data-ticket-index="${index}">${copy.buyTicket}</button>` : ""}
-    </article>
-  `;
-  }).join("") : `
-    <article class="ticket-coming-soon">
-      <h3>${copy.ticketComingSoon}</h3>
-      <p>${copy.ticketComingSoonDesc}</p>
-    </article>
-  `;
-  showPage("festivalDetail", updateHistory);
-}
-
-function showCheckout(ticket) {
-  const copy = translations[activeLanguage];
-  activeTicket = ticket;
-  fillText([
-    ["#checkoutTitle", copy.checkoutEyebrow],
-    ["#checkoutFestival", activeFestival.name],
-    ["#checkoutTicket", `${ticket.name} - ${ticket.note}`],
-    ["#checkoutPayButton", copy.continuePayment]
-  ]);
-  $("#checkoutQty").value = 1;
-  updateCheckout();
-  showPage("checkout");
-}
-
-function priceValue(price) {
-  if (!price || /TBA|See|Not available/i.test(price)) return null;
-  const amount = Number(price.replace(/[^\d]/g, ""));
-  if (!amount) return null;
-  return { amount, currency: price.includes("US$") ? "US$" : "Rp" };
-}
-
-function formatPrice(value, currency) {
-  if (!value) return activeTicket?.price || "-";
-  return currency === "US$" ? `US$${value.toLocaleString("en-US")}` : `Rp ${value.toLocaleString("id-ID")}`;
-}
-
-function ticketRank(ticket, type) {
-  const options = ticketOptions[activeFestival.name] || [];
-  const prices = options.map((option) => priceValue(option.price)?.amount).filter(Boolean);
-  const current = priceValue(ticket.price)?.amount;
-  if (!prices.length) return type === "min" ? options.indexOf(ticket) === 0 : options.indexOf(ticket) === options.length - 1;
-  if (!current || !prices.length) return false;
-  return type === "min" ? current === Math.min(...prices) : current === Math.max(...prices);
-}
-
-function updateCheckout() {
-  const copy = translations[activeLanguage];
-  const qty = Math.max(1, Number($("#checkoutQty").value) || 1);
-  const parsed = priceValue(activeTicket.price);
-  const freeTickets = ticketRank(activeTicket, "min") ? Math.floor(qty / 3) : 0;
-  const hotelCount = ticketRank(activeTicket, "max") ? Math.floor(qty / 3) : 0;
-  const service = parsed ? Math.round(parsed.amount * qty * SERVICE_RATE) : null;
-  const total = parsed ? parsed.amount * qty + service : null;
-  const bonuses = [];
-
-  if (freeTickets) bonuses.push(`${freeTickets} ${copy.freeTickets} (${qty + freeTickets} ${copy.totalTickets})`);
-  if (hotelCount) bonuses.push(`${hotelCount}x ${copy.hotelVoucher}`);
-
-  checkoutTotalText = parsed ? formatPrice(total, parsed.currency) : activeTicket.price;
-  fillText([
-    ["#checkoutService", parsed ? formatPrice(service, parsed.currency) : "-"],
-    ["#checkoutTotal", checkoutTotalText],
-    ["#checkoutBonus", bonuses.join(" + ") || copy.noBonus],
-    ["#hotelName", hotels[activeFestival.name] || "-"],
-    ["#hotelDesc", `${copy.hotelVoucherDesc}. ${hotelCount ? `${hotelCount} voucher.` : ""}`]
-  ]);
-  $("#hotelVoucher").classList.toggle("hidden", !hotelCount);
-}
-
-function issueTicket() {
-  const copy = translations[activeLanguage];
-  const qty = Math.max(1, Number($("#checkoutQty").value) || 1);
-  const parsed = priceValue(activeTicket.price);
-  const service = parsed ? Math.round(parsed.amount * qty * SERVICE_RATE) : null;
-  const total = parsed ? parsed.amount * qty + service : null;
-  const hotelCount = ticketRank(activeTicket, "max") ? Math.floor(qty / 3) : 0;
-
-  fillText([
-    ["#visualFestival", activeFestival.name],
-    ["#visualTicketId", `NG-${Date.now().toString().slice(-8)}`],
-    ["#visualStage", stageMap[activeFestival.name] || stageMap.default],
-    ["#visualDay", activeFestival.date.includes("&") ? "Weekend" : "Festival Day"],
-    ["#visualDate", activeFestival.date],
-    ["#visualVenue", activeFestival.place],
-    ["#visualQty", qty],
-    ["#visualTicketType", activeTicket.name],
-    ["#visualTotal", checkoutTotalText || (parsed ? formatPrice(total, parsed.currency) : activeTicket.price)],
-    ["#visualHotelName", hotels[activeFestival.name] || "-"],
-    ["#visualHotelDesc", `${copy.hotelVoucherDesc}. ${hotelCount} voucher.`]
-  ]);
-  $("#visualHotelVoucher").classList.toggle("hidden", !hotelCount);
-  showPage("ticketVisual");
-}
-
-function ticketVisualMarkup(festival, ticket, qty = 1, totalText = ticket.price, showDownloadButton = true) {
-  const ticketId = `NG-${Date.now().toString().slice(-8)}`;
-  const day = festival.date.includes("&") ? "Weekend" : "Festival Day";
-  const stage = stageMap[festival.name] || stageMap.default;
-
-  return `
-    <article class="ticket-visual">
-      <div class="ticket-main">
-        <h1>${festival.name}</h1>
-        <div class="visual-meta">
-          <p><span>Ticket ID</span><strong>${ticketId}</strong></p>
-          <p><span>Stage</span><strong>${stage}</strong></p>
-          <p><span>Day</span><strong>${day}</strong></p>
-          <p><span>Date</span><strong>${festival.date}</strong></p>
-          <p><span>Venue</span><strong>${festival.place}</strong></p>
-          <p><span>Qty</span><strong>${qty}</strong></p>
-        </div>
-      </div>
-      <div class="ticket-stub">
-        <div class="dummy-qr" aria-label="Dummy QR code"></div>
-        <p>${ticket.name}</p>
-        <strong>${totalText}</strong>
-        ${showDownloadButton ? `<button class="secondary-button download-ticket-button" type="button">${translations[activeLanguage].downloadTicket}</button>` : ""}
-      </div>
-    </article>
-  `;
-}
-
-function downloadTicket(ticket) {
-  const sheet = $("#printTicketSheet");
-  const qty = Math.max(1, Number($("#checkoutQty").value) || 1);
-  sheet.innerHTML = ticketVisualMarkup(activeFestival, ticket, qty, checkoutTotalText || ticket.price, false);
-  window.print();
-}
-
-function showPaymentSuccess() {
-  const redirectText = $("#redirectTicketText");
-  let count = 3;
-
-  if (paymentRedirectTimer) {
-    window.clearInterval(paymentRedirectTimer);
+  function showAuth(which) {
+    show(auth); hide(app);
+    $("#authTabs")?.classList.toggle("signup-active", which === "signup");
+    $("#authTabs")?.classList.toggle("reset-active", which === "reset");
+    $$(".auth-tab").forEach((tab) => tab.classList.toggle("active", tab.id.toLowerCase().includes(which)));
+    $$(".auth-form").forEach((form) => form.classList.remove("active"));
+    $(`#${which}Form`)?.classList.add("active");
+    $("#authTabs")?.classList.toggle("hidden", which === "reset");
+  }
+  function showApp() {
+    hide(auth); show(app);
+    if (sessionStorage.getItem("nigakuLanguageChosen") === "true") { hide(gate); show(home); }
+    else { show(gate); hide(home); }
   }
 
-  $("#successAmount").textContent = checkoutTotalText;
-  redirectText.innerHTML = translations[activeLanguage].redirectTicket.replace("{count}", `<strong id="redirectCountdown">${count}</strong>`);
-  showPage("paymentSuccess");
-
-  paymentRedirectTimer = window.setInterval(() => {
-    count -= 1;
-    $("#redirectCountdown").textContent = count;
-
-    if (count <= 0) {
-      window.clearInterval(paymentRedirectTimer);
-      paymentRedirectTimer = null;
-      issueTicket();
+  $("#signinTab")?.addEventListener("click", () => showAuth("signin"));
+  $("#signupTab")?.addEventListener("click", () => showAuth("signup"));
+  $("#resetBackButton")?.addEventListener("click", () => { sessionStorage.setItem("nigakuAuthMode", "signin"); showAuth("signin"); });
+  $("#signinForm")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const email = $("#signinEmail").value.trim();
+    const password = $("#signinPassword").value;
+    if (email === currentUser.email && password === currentUser.password) {
+      signinAttempts = 0;
+      sessionStorage.setItem("nigakuSigninAttempts", "0");
+      sessionStorage.setItem("nigakuSignedIn", "true");
+      sessionStorage.removeItem("nigakuAuthMode");
+      showApp();
+      return;
     }
+    signinAttempts += 1;
+    sessionStorage.setItem("nigakuSigninAttempts", String(signinAttempts));
+    setText("#signinError", `Wrong email or password. Attempt ${signinAttempts}/3.`);
+    if (signinAttempts >= 3) { sessionStorage.setItem("nigakuAuthMode", "reset"); showAuth("reset"); }
+  });
+  $("#signupForm")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    currentUser = { username: $("#signupUsername").value.trim() || "Kelompok 3", email: $("#signupEmail").value.trim(), password: $("#signupPassword").value, phone: $("#signupPhone").value.trim() };
+    writeJSON("nigakuUser", currentUser);
+    sessionStorage.setItem("nigakuSignedIn", "true");
+    showApp();
+  });
+  $("#resetForm")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const next = $("#resetPassword").value;
+    const confirm = $("#resetConfirmPassword").value;
+    if (next.length < 8 || next !== confirm) { setText("#resetError", "Password must match and contain at least 8 characters."); return; }
+    currentUser.password = next;
+    writeJSON("nigakuUser", currentUser);
+    sessionStorage.setItem("nigakuSigninAttempts", "0");
+    sessionStorage.setItem("nigakuAuthMode", "signin");
+    setText("#signinError", "Password reset successful. Please sign in again.");
+    showAuth("signin");
+  });
+  $$(`[data-language]`).forEach((button) => button.addEventListener("click", () => {
+    activeLanguage = button.dataset.language;
+    sessionStorage.setItem("nigakuLanguage", activeLanguage);
+    sessionStorage.setItem("nigakuLanguageChosen", "true");
+    updateStaticCopy();
+    hide(gate); show(home); show($("#rulesModal"));
+  }));
+  $("#acceptRulesButton")?.addEventListener("click", () => hide($("#rulesModal")));
+  $$(`[data-category-choice]`).forEach((button) => button.addEventListener("click", () => {
+    activeCategory = button.dataset.categoryChoice;
+    sessionStorage.setItem("nigakuCategory", activeCategory);
+    go(routes.tickets);
+  }));
+
+  if (signedIn && mode !== "reset") showApp(); else showAuth(mode === "reset" ? "reset" : "signin");
+}
+
+function cardMarkup(item, unavailable) {
+  const status = unavailable ? translations[activeLanguage].unavailable : translations[activeLanguage].available;
+  const price = unavailable ? "" : item.price;
+  return `<div class="event-art" style="background-image:url('${item.image || ""}');background-position:${imagePosition(item)}"><h2>${item.name}</h2></div><div class="event-body"><p>${item.place} - ${item.date}</p><div class="card-meta"><strong>${price}</strong><strong>${status}</strong></div><button class="primary-button" type="button">${translations[activeLanguage].buyTicket}</button></div>`;
+}
+function renderTickets() {
+  const list = festivalData[activeCategory] || festivalData.international;
+  setText("#ticketHeading", activeCategory === "local" ? translations[activeLanguage].ticketHeadingLocal : translations[activeLanguage].ticketHeadingInternational);
+  const grid = $("#ticketGrid");
+  const input = $("#ticketSearchInput");
+  function paint() {
+    const q = (input?.value || "").toLowerCase();
+    grid.innerHTML = list.filter((item) => [item.name, item.place, item.genre].join(" ").toLowerCase().includes(q)).map((item) => {
+      const unavailable = isUnavailable(item);
+      return `<article class="event-card festival-card${unavailable ? " is-unavailable" : ""}" data-name="${item.name}">${cardMarkup(item, unavailable)}</article>`;
+    }).join("");
+    $$(".festival-card", grid).forEach((card) => card.addEventListener("click", () => {
+      const item = getFestival(card.dataset.name);
+      if (isUnavailable(item)) { toast(translations[activeLanguage].ticketUnavailable); return; }
+      sessionStorage.setItem("nigakuFestivalName", item.name);
+      sessionStorage.setItem("nigakuCategory", categoryOf(item));
+      go(routes.detail);
+    }));
+  }
+  paint();
+  input?.addEventListener("input", paint);
+  $("#searchTrigger")?.addEventListener("click", () => { $("#navSearch")?.classList.toggle("open"); input?.focus(); });
+  $("#ticketsBackButton")?.addEventListener("click", () => go(routes.home));
+}
+
+function setupDetail() {
+  const festival = getFestival();
+  const unavailable = isUnavailable(festival);
+  setText("#detailGenre", festival.genre);
+  setText("#detailTitle", festival.name);
+  setText("#detailSummary", festival.summary);
+  setText("#detailDateValue", festival.date);
+  setText("#detailPlaceValue", festival.place);
+  setText("#detailLineupValue", festival.lineup);
+  const hero = $("#detailHero");
+  if (hero) {
+    hero.classList.remove("text-light", "text-dark");
+    hero.classList.add(heroTextClass(festival));
+    const overlay = hero.classList.contains("text-light") ? "linear-gradient(rgba(8,52,65,.22),rgba(8,52,65,.16))" : "linear-gradient(rgba(251,247,238,.16),rgba(251,247,238,.12))";
+    hero.style.backgroundImage = `${overlay},url('${festival.image}')`;
+    hero.style.backgroundPosition = imagePosition(festival);
+  }
+  $("#backToTicketsButton")?.addEventListener("click", () => go(routes.tickets));
+  $("#detailOfficialButton")?.addEventListener("click", () => festival.officialUrl && window.open(festival.officialUrl, "_blank"));
+  $("#detailMapButton")?.addEventListener("click", () => openMaps(festival.place));
+  const list = $("#ticketOptionList");
+  list.innerHTML = getTickets(festival).map((ticket, index) => `<article class="ticket-option-card"><div><h3>${ticket.name}</h3><p>${ticket.note}</p><strong>${unavailable ? translations[activeLanguage].unavailable : ticket.price}</strong></div><button class="primary-button" type="button" data-ticket-index="${index}" ${unavailable ? "disabled" : ""}>${translations[activeLanguage].buyTicket}</button></article>`).join("");
+  $$(`[data-ticket-index]`, list).forEach((button) => button.addEventListener("click", () => {
+    selectedTicketIndex = Number(button.dataset.ticketIndex);
+    sessionStorage.setItem("nigakuTicketIndex", String(selectedTicketIndex));
+    sessionStorage.setItem("nigakuFestivalName", festival.name);
+    sessionStorage.setItem("nigakuPurchaseType", "ticket");
+    sessionStorage.setItem("nigakuQty", "1");
+    sessionStorage.removeItem("nigakuTotalText");
+    sessionStorage.removeItem("nigakuSuccessRecorded");
+    go(routes.checkout);
+  }));
+}
+
+function setupCheckout() {
+  const qtyInput = $("#checkoutQty");
+  if (purchaseType() === "merch") {
+    const item = getMerchItem();
+    const labelProduct = $(`[data-i18n="checkoutFestival"]`);
+    const labelDetail = $(`[data-i18n="checkoutTicket"]`);
+    const labelBonus = $(`[data-i18n="checkoutBonus"]`);
+    if (labelProduct) labelProduct.textContent = activeLanguage === "id" ? "Produk" : "Product";
+    if (labelDetail) labelDetail.textContent = activeLanguage === "id" ? "Detail" : "Detail";
+    if (labelBonus) labelBonus.textContent = activeLanguage === "id" ? "Catatan" : "Note";
+    const summary = $(".checkout-summary");
+    let hero = $("#merchCheckoutHero");
+    if (!hero && summary) {
+      hero = document.createElement("div");
+      hero.id = "merchCheckoutHero";
+      hero.className = "checkout-product-hero";
+      summary.before(hero);
+    }
+    function updateMerch() {
+      const qty = Math.max(1, Number(qtyInput.value || 1));
+      if (hero) {
+        hero.innerHTML = `<div class="checkout-product-image"><img src="${item.image}" alt="${merchName(item)}"></div><div class="checkout-product-copy"><p class="eyebrow">${activeLanguage === "id" ? "Produk Resmi" : "Official Merch"}</p><h2>${merchName(item)}</h2><p>${merchDetail(item)}</p><strong>${item.price}</strong></div>`;
+      }
+      setText("#checkoutFestival", merchName(item));
+      setText("#checkoutTicket", `${merchDetail(item)} - ${item.price}`);
+      setText("#checkoutService", "-");
+      setText("#checkoutTotal", merchTotalText(item, qty));
+      sessionStorage.setItem("nigakuQty", String(qty));
+      sessionStorage.setItem("nigakuTotalText", merchTotalText(item, qty));
+      hide($("#checkoutService")?.closest("p"));
+      hide($("#checkoutBonus")?.closest("p"));
+      hide($("#hotelVoucher"));
+    }
+    qtyInput?.addEventListener("input", updateMerch);
+    $("#checkoutBackButton")?.addEventListener("click", () => go(routes.merch));
+    $("#checkoutPayButton")?.addEventListener("click", () => go(routes.payment));
+    updateMerch();
+    return;
+  }
+  const festival = getFestival();
+  const ticket = getTicket(festival);
+  function update() {
+    const qty = Math.max(1, Number(qtyInput.value || 1));
+    const base = moneyNumber(ticket.price);
+    show($("#checkoutService")?.closest("p"));
+    show($("#checkoutBonus")?.closest("p"));
+    setText("#checkoutFestival", festival.name);
+    setText("#checkoutTicket", `${ticket.name} - ${ticket.price}`);
+    setText("#checkoutService", base ? formatTicketMoney(ticket.price, Math.round(base * qty * SERVICE_RATE)) : "Included by official page");
+    setText("#checkoutTotal", ticketTotalText(ticket, qty));
+    setText("#checkoutBonus", qty >= 3 ? "Free hotel voucher included" : "Buy 3 tickets to unlock hotel voucher");
+    sessionStorage.setItem("nigakuQty", String(qty));
+    sessionStorage.setItem("nigakuTotalText", ticketTotalText(ticket, qty));
+    $("#hotelVoucher")?.classList.toggle("hidden", qty < 3);
+    setText("#hotelName", hotels[festival.name] || "Partner Hotel");
+    setText("#hotelDesc", "Valid for one selected festival stay.");
+  }
+  qtyInput?.addEventListener("input", update);
+  $("#checkoutBackButton")?.addEventListener("click", () => go(routes.detail));
+  $("#checkoutPayButton")?.addEventListener("click", () => go(routes.payment));
+  update();
+}
+
+function setupPayment() {
+  setText("#paymentAmount", currentTotalText());
+  $("#paymentBackButton")?.addEventListener("click", () => go(routes.checkout));
+  $("#qrisPaymentButton")?.addEventListener("click", () => go(routes.qris));
+}
+function setupQris() {
+  setText("#qrisAmount", currentTotalText());
+  $("#qrisBackButton")?.addEventListener("click", () => go(routes.payment));
+  $("#checkPaymentButton")?.addEventListener("click", () => go(routes.success));
+}
+function addTransaction() {
+  const items = readJSON("nigakuTransactions", []);
+  if (purchaseType() === "merch") {
+    const item = getMerchItem();
+    const qty = Number(sessionStorage.getItem("nigakuQty") || 1);
+    items.unshift({ type: "merch", id: `NM-${Math.floor(10000000 + Math.random() * 89999999)}`, festival: merchName(item), ticket: "Merchandise", qty, total: sessionStorage.getItem("nigakuTotalText") || merchTotalText(item, qty), date: new Date().toLocaleString(activeLanguage === "id" ? "id-ID" : "en-US") });
+    writeJSON("nigakuTransactions", items.slice(0, 8));
+    return;
+  }
+  const festival = getFestival();
+  const ticket = getTicket(festival);
+  const qty = Number(sessionStorage.getItem("nigakuQty") || 1);
+  items.unshift({ type: "ticket", id: `NG-${Math.floor(10000000 + Math.random() * 89999999)}`, festival: festival.name, ticket: ticket.name, qty, total: sessionStorage.getItem("nigakuTotalText") || ticketTotalText(ticket, qty), date: new Date().toLocaleString(activeLanguage === "id" ? "id-ID" : "en-US") });
+  writeJSON("nigakuTransactions", items.slice(0, 8));
+}
+function setupSuccess() {
+  setText("#successAmount", currentTotalText());
+  if (purchaseType() === "merch") {
+    if (!sessionStorage.getItem("nigakuSuccessRecorded")) {
+      addTransaction();
+      sessionStorage.setItem("nigakuSuccessRecorded", "1");
+    }
+    setText("#successCountdown", activeLanguage === "id" ? "Transaksi merchandise kamu sudah tersimpan di Settings." : "Your merchandise transaction has been saved in Settings.");
+    const backButton = $("#successBackButton");
+    if (backButton) {
+      backButton.textContent = activeLanguage === "id" ? "Kembali ke Merch" : "Back to Merch";
+      show(backButton);
+      backButton.addEventListener("click", () => go(routes.merch));
+    }
+    return;
+  }
+  let seconds = 3;
+  const number = $("#countdownNumber");
+  const timer = setInterval(() => {
+    seconds -= 1;
+    if (number) number.textContent = String(seconds);
+    if (seconds <= 0) { clearInterval(timer); addTransaction(); go(routes.visual); }
   }, 1000);
 }
 
-function openExternal(url) {
-  if (!url) {
-    showToast(translations[activeLanguage].ticketUnavailable);
-    return;
-  }
-
-  window.open(url, "_blank", "noopener");
+function visualMarkup() {
+  const festival = getFestival();
+  const ticket = getTicket(festival);
+  const qty = Number(sessionStorage.getItem("nigakuQty") || 1);
+  return { festival, ticket, qty, total: sessionStorage.getItem("nigakuTotalText") || ticketTotalText(ticket, qty), id: `NG-${Math.floor(10000000 + Math.random() * 89999999)}` };
+}
+function setupVisual() {
+  const data = visualMarkup();
+  setText("#visualFestival", data.festival.name);
+  setText("#visualTicketId", data.id);
+  setText("#visualStage", stageMap[data.festival.name] || stageMap.default);
+  setText("#visualDay", data.ticket.note || "Festival Day");
+  setText("#visualDate", data.festival.date);
+  setText("#visualVenue", data.festival.place);
+  setText("#visualQty", data.qty);
+  setText("#visualTicketType", data.ticket.name);
+  setText("#visualTotal", data.total);
+  $("#visualHotelVoucher")?.classList.toggle("hidden", data.qty < 3);
+  setText("#visualHotelName", hotels[data.festival.name] || "Partner Hotel");
+  setText("#visualHotelDesc", "Show this voucher with your NIGAKU ticket at check-in.");
+  $("#visualHomeButton")?.addEventListener("click", () => go(routes.home));
+  $("#visualDownloadButton")?.addEventListener("click", () => { $("#printTicketSheet").innerHTML = $(".ticket-visual").outerHTML; window.print(); });
 }
 
-function openFestivalMap() {
-  if (!activeFestival) return;
-  const query = encodeURIComponent(activeFestival.place);
-  window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, "_blank", "noopener");
-}
-
-function setActiveCategory(category) {
-  activeCategory = category;
-  renderTickets();
-  navSearch.classList.add("visible");
-}
-
-function updateLanguageButtons() {
-  const languageActions = $(".profile-language-actions");
-  languageActions.classList.toggle("id-active", activeLanguage === "id");
-  $$("[data-profile-language]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.profileLanguage === activeLanguage);
-  });
-}
-
-function makeDraggableSlider(container, options) {
-  if (!container) return;
-  let dragging = false, moved = false, sliderX = 0, startX = 0;
-  const getMax = () => container.getBoundingClientRect().width / 2;
-  const setSliderX = (clientX) => {
-    const rect = container.getBoundingClientRect();
-    const knobWidth = rect.width / 2 - 8;
-    const max = getMax();
-    sliderX = Math.max(0, Math.min(max, clientX - rect.left - 4 - knobWidth / 2));
-    container.style.setProperty("--slider-x", `${sliderX}px`);
-  };
-
-  container.addEventListener("pointerdown", (event) => {
-    if (!event.target.closest("button")) return;
-    dragging = true;
-    moved = false;
-    startX = event.clientX;
-    container.classList.add("dragging");
-    container.setPointerCapture?.(event.pointerId);
-    container.style.setProperty("--slider-x", `${options.getActiveIndex() * getMax()}px`);
-    setSliderX(event.clientX);
-  });
-
-  container.addEventListener("pointermove", (event) => {
-    if (!dragging) return;
-    moved = Math.abs(event.clientX - startX) > 4;
-    setSliderX(event.clientX);
-  });
-
-  const finishDrag = (event) => {
-    if (!dragging) return;
-    dragging = false;
-    setSliderX(event.clientX);
-    container.classList.remove("dragging");
-    container.style.removeProperty("--slider-x");
-    options.onChange(sliderX > getMax() / 2 ? 1 : 0);
-    container.dataset.dragMoved = moved ? "true" : "";
-  };
-
-  container.addEventListener("pointerup", finishDrag);
-  container.addEventListener("pointercancel", finishDrag);
-  container.addEventListener("click", (event) => {
-    if (container.dataset.dragMoved === "true") {
-      event.preventDefault();
-      event.stopPropagation();
-      container.dataset.dragMoved = "";
-    }
-  }, true);
-}
-
-function renderTickets() {
-  const grid = $("#ticketGrid");
-  const heading = $("#ticketHeading");
-  const copy = translations[activeLanguage];
-  const query = ticketSearchQuery.trim().toLowerCase();
-
-  grid.innerHTML = "";
-  if (!activeCategory) {
-    heading.textContent = copy.pickCategory;
-    navSearch.classList.remove("visible", "open");
-    return;
-  }
-
-  heading.textContent =
-    activeCategory === "international"
-      ? copy.ticketHeadingInternational
-      : copy.ticketHeadingLocal;
-
-  festivalData[activeCategory].filter((item) => {
-    if (!query) return true;
-    return [item.name, item.place, item.date, item.lineup, item.genre, item.summary]
-      .join(" ")
-      .toLowerCase()
-      .includes(query);
-  }).forEach((item) => {
-    grid.appendChild(createCard(item, copy.buyTicket, "tickets"));
-  });
-}
-
-function renderMerchandise() {
-  const copy = translations[activeLanguage];
+function setupMerch() {
   const grid = $("#merchGrid");
-  grid.innerHTML = "";
-  merchandiseData.forEach((item) => grid.appendChild(createCard(item, copy.buyMerch, "merchandise")));
+  grid.innerHTML = merchandiseData.map((item, index) => `<article class="event-card merch-card"><div class="event-art merch-art"><img src="${item.image}" alt="${activeLanguage === "id" ? item.nameId : item.name}"></div><div class="event-body"><h2>${activeLanguage === "id" ? item.nameId : item.name}</h2><p>${activeLanguage === "id" ? item.placeId : item.place} - ${activeLanguage === "id" ? item.dateId : item.date}</p><div class="card-meta"><strong>${item.price}</strong><strong>${translations[activeLanguage].available}</strong></div><button class="primary-button" type="button" data-merch-index="${index}">${translations[activeLanguage].buyMerch}</button></div></article>`).join("");
+  $$("[data-merch-index]", grid).forEach((button) => button.addEventListener("click", () => {
+    selectedMerchIndex = Number(button.dataset.merchIndex);
+    sessionStorage.setItem("nigakuPurchaseType", "merch");
+    sessionStorage.setItem("nigakuMerchIndex", String(selectedMerchIndex));
+    sessionStorage.setItem("nigakuQty", "1");
+    sessionStorage.removeItem("nigakuTotalText");
+    sessionStorage.removeItem("nigakuSuccessRecorded");
+    go(routes.checkout);
+  }));
+}
+function setupGallery() {
+  const lightbox = $("#galleryLightbox");
+  const photo = $("#galleryLightboxPhoto");
+  const title = $("#galleryLightboxTitle");
+  let origin = null;
+  function open(tile) {
+    origin = tile.getBoundingClientRect();
+    const x = `${origin.left + origin.width / 2 - window.innerWidth / 2}px`;
+    const y = `${origin.top + origin.height / 2 - window.innerHeight / 2}px`;
+    photo.style.setProperty("--gallery-x", x);
+    photo.style.setProperty("--gallery-y", y);
+    photo.style.backgroundImage = `url('${tile.dataset.image}')`;
+    title.textContent = tile.textContent.trim();
+    show(lightbox);
+    requestAnimationFrame(() => lightbox.classList.add("is-open"));
+  }
+  function close() {
+    lightbox.classList.add("closing");
+    lightbox.classList.remove("is-open");
+    setTimeout(() => { hide(lightbox); lightbox.classList.remove("closing"); }, 330);
+  }
+  $$(".gallery-tile").forEach((tile) => tile.addEventListener("click", () => open(tile)));
+  $("#galleryLightboxBack")?.addEventListener("click", close);
+  lightbox?.addEventListener("click", (event) => { if (event.target === lightbox) close(); });
 }
 
-function openGalleryLightbox(tile) {
-  window.clearTimeout(galleryCloseTimer);
-  const source = tile.getBoundingClientRect();
-  galleryLightboxTitle.textContent = tile.textContent.trim();
-  galleryLightboxPhoto.style.backgroundImage = `url("${tile.dataset.image}")`;
-  galleryLightbox.classList.remove("hidden", "closing", "is-open");
-  galleryLightboxPhoto.style.transition = "none";
-  galleryLightboxPhoto.style.setProperty("--gallery-x", "0px");
-  galleryLightboxPhoto.style.setProperty("--gallery-y", "0px");
-  galleryLightboxPhoto.style.setProperty("--gallery-scale-x", "1");
-  galleryLightboxPhoto.style.setProperty("--gallery-scale-y", "1");
-  const target = galleryLightboxPhoto.getBoundingClientRect();
-  galleryLightboxPhoto.style.setProperty("--gallery-x", `${source.left - target.left}px`);
-  galleryLightboxPhoto.style.setProperty("--gallery-y", `${source.top - target.top}px`);
-  galleryLightboxPhoto.style.setProperty("--gallery-scale-x", `${source.width / target.width}`);
-  galleryLightboxPhoto.style.setProperty("--gallery-scale-y", `${source.height / target.height}`);
-  galleryLightboxPhoto.offsetWidth;
-  galleryLightboxPhoto.style.transition = "";
-  window.requestAnimationFrame(() => galleryLightbox.classList.add("is-open"));
+function setupProfile() {
+  setText("#profileNameDisplay", currentUser.username || "Kelompok 3");
+  setText("#profileEmailDisplay", currentUser.email || "kelompok3@gmail.com");
+  setText("#profilePhoneDisplay", currentUser.phone || "-");
+  const items = readJSON("nigakuTransactions", []);
+  const tickets = items.filter((item) => item.type !== "merch");
+  const renderTransaction = (item) => `<article class="transaction-item"><strong>${item.festival}</strong><span>${item.ticket} x${item.qty} - ${item.total}</span><small>${item.id} • ${item.date}</small></article>`;
+  const transactionMarkup = items.length ? items.map(renderTransaction).join("") : `<p class="empty-transactions">No transactions yet.</p>`;
+  const activeMarkup = tickets.length ? tickets.map(renderTransaction).join("") : `<p class="empty-transactions">No active tickets yet.</p>`;
+  if ($("#transactionList")) $("#transactionList").innerHTML = transactionMarkup;
+  if ($("#activeTicketList")) $("#activeTicketList").innerHTML = activeMarkup;
+  $$("[data-profile-tab]").forEach((button) => button.addEventListener("click", () => {
+    $$("[data-profile-tab]").forEach((item) => item.classList.toggle("active", item === button));
+    $$("[data-profile-panel]").forEach((panel) => panel.classList.toggle("active", panel.dataset.profilePanel === button.dataset.profileTab));
+  }));
+  $("#profileBackButton")?.addEventListener("click", () => go(routes.home));
+  $("#resetPasswordButton")?.addEventListener("click", () => { sessionStorage.setItem("nigakuAuthMode", "reset"); sessionStorage.removeItem("nigakuSignedIn"); go(routes.home); });
+  $("#changeAccountButton")?.addEventListener("click", () => { sessionStorage.setItem("nigakuAuthMode", "signin"); sessionStorage.removeItem("nigakuSignedIn"); go(routes.home); });
+  $("#signOutButton")?.addEventListener("click", () => { sessionStorage.clear(); window.location.replace(routes.home); });
+  $("#editUsernameButton")?.addEventListener("click", () => {
+    const next = window.prompt("Edit username", currentUser.username || "Kelompok 3");
+    if (!next?.trim()) return;
+    currentUser.username = next.trim();
+    writeJSON("nigakuUser", currentUser);
+    setText("#profileNameDisplay", currentUser.username);
+  });
+  $("#editPhoneButton")?.addEventListener("click", () => {
+    const next = window.prompt("Edit phone number", currentUser.phone || "+62");
+    if (next === null) return;
+    currentUser.phone = next.trim();
+    writeJSON("nigakuUser", currentUser);
+    setText("#profilePhoneDisplay", currentUser.phone || "-");
+  });
+  $$(`[data-profile-language]`).forEach((button) => {
+    button.classList.toggle("active", button.dataset.profileLanguage === activeLanguage);
+    button.addEventListener("click", () => {
+      activeLanguage = button.dataset.profileLanguage;
+      sessionStorage.setItem("nigakuLanguage", activeLanguage);
+      $$(`[data-profile-language]`).forEach((item) => item.classList.toggle("active", item === button));
+      updateStaticCopy();
+    });
+  });
+  $("#editPhotoButton")?.addEventListener("click", () => $("#profilePhotoInput")?.click());
+  $("#profilePhotoInput")?.addEventListener("change", (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => { $("#profilePhotoLarge").src = reader.result; };
+    reader.readAsDataURL(file);
+  });
 }
 
-function closeGalleryLightbox() {
-  if (galleryLightbox.classList.contains("hidden") || galleryLightbox.classList.contains("closing")) return;
-  galleryLightbox.classList.remove("is-open");
-  galleryLightbox.classList.add("closing");
-  galleryCloseTimer = window.setTimeout(() => {
-    galleryLightbox.classList.add("hidden");
-    galleryLightbox.classList.remove("closing");
-    galleryLightboxPhoto.style.backgroundImage = "";
-  }, 470);
-}
-
-function applyLanguage(language) {
-  activeLanguage = language;
-  updateStaticCopy();
-  renderTickets();
-  renderMerchandise();
-  updateLanguageButtons();
-  languageGate.classList.add("hidden");
-  showPage("home");
-  rulesModal.classList.remove("hidden");
-}
-
-function changeLanguage(language) {
-  activeLanguage = language;
-  updateStaticCopy();
-  renderTickets();
-  renderMerchandise();
-  if (activeFestival && !$("#festivalDetailPage").classList.contains("hidden")) showFestivalDetail(activeFestival, false);
-  if (activeTicket && !$("#checkoutPage").classList.contains("hidden")) updateCheckout();
-  updateLanguageButtons();
-  showToast(translations[activeLanguage].languageChanged);
-}
-
-function stateFromHash() {
-  const hash = window.location.hash.replace("#", "");
-  if (hash === "signin" || hash === "signup" || hash === "reset") {
-    return { screen: "auth", mode: hash };
-  }
-  if (hash) {
-    return { screen: "app", route: hash };
-  }
-  return { screen: "auth", mode: "signin" };
-}
-
-function showAuthScreen(mode) {
-  isSignedIn = false;
-  appShell.classList.add("hidden");
-  authScreen.classList.remove("hidden");
-  activeCategory = "";
-  setAuthMode(mode, false);
-}
-
-window.addEventListener("popstate", (event) => {
-  const state = event.state || stateFromHash();
-
-  if (state.screen === "auth") {
-    if (isSignedIn) {
-      renderPage("language");
-      updateHistoryState({ screen: "app", route: "language" }, true);
-      return;
-    }
-
-    showAuthScreen(state.mode || "signin");
-    return;
-  }
-
-  if (!isSignedIn) {
-    showAuthScreen("signin");
-    updateHistoryState({ screen: "auth", mode: "signin" }, true);
-    return;
-  }
-
-  authScreen.classList.add("hidden");
-  appShell.classList.remove("hidden");
-  renderPage(state.route || "home");
-});
-
-signinTab.addEventListener("click", () => setAuthMode("signin"));
-signupTab.addEventListener("click", () => setAuthMode("signup"));
-
-signinForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const email = $("#signinEmail").value.trim();
-  const password = $("#signinPassword").value;
-
-  if (email === dummyUser.email && password === dummyUser.password) {
-    failedSignInAttempts = 0;
-    signIn({ ...dummyUser });
-    return;
-  }
-
-  failedSignInAttempts += 1;
-
-  if (failedSignInAttempts >= 3) {
-    failedSignInAttempts = 0;
-    $("#resetEmail").value = email;
-    setAuthMode("reset");
-    showToast("Too many failed attempts. Please reset your password.");
-    return;
-  }
-
-  const attemptsLeft = 3 - failedSignInAttempts;
-  signinError.textContent = `Invalid email or password. ${attemptsLeft} attempt${attemptsLeft === 1 ? "" : "s"} left.`;
-});
-
-signupForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const user = {
-    username: $("#signupUsername").value.trim(),
-    email: $("#signupEmail").value.trim(),
-    password: $("#signupPassword").value,
-    phone: $("#signupPhone").value.trim()
-  };
-  signIn(user);
-  showToast("Account created. Welcome to NIGAKU.");
-});
-
-resetForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const email = $("#resetEmail").value.trim();
-  const password = $("#resetPassword").value;
-  const confirmPassword = $("#resetConfirmPassword").value;
-
-  if (!email) {
-    resetError.textContent = "Please enter your account email.";
-    return;
-  }
-  if (password !== confirmPassword) {
-    resetError.textContent = "New password and confirmation do not match.";
-    return;
-  }
-
-  dummyUser.email = email;
-  dummyUser.password = password;
-  setAuthMode("signin");
-  $("#signinEmail").value = email;
-  $("#signinPassword").value = "";
-  resetForm.reset();
-  showToast("Password reset. Please sign in with your new password.");
-});
-
-$$("[data-language]").forEach((button) => button.addEventListener("click", () => applyLanguage(button.dataset.language)));
-on("#resetBackButton", "click", () => setAuthMode("signin"));
-$$("[data-category-choice]").forEach((button) => button.addEventListener("click", () => { setActiveCategory(button.dataset.categoryChoice); showPage("tickets"); }));
-on("#acceptCookiesButton", "click", () => { rulesModal.classList.add("hidden"); showToast(translations[activeLanguage].cookiesAccepted); });
-on("#closeRulesButton", "click", () => rulesModal.classList.add("hidden"));
-[["#ticketsBackButton", "home"], ["#checkoutBackButton", "festivalDetail"], ["#checkoutPayButton", "paymentMethod"], ["#paymentBackButton", "checkout"], ["#qrisBackButton", "paymentMethod"], ["#visualHomeButton", "home"], ["#profileTrigger", "profile"], ["#profileBackButton", "home"]].forEach(([selector, route]) => on(selector, "click", () => showPage(route)));
-on("#backToTicketsButton", "click", () => showPage(detailBackRoute));
-on("#detailOfficialButton", "click", () => openExternal(activeFestival?.officialUrl));
-on("#detailMapButton", "click", openFestivalMap);
-on("#ticketOptionList", "click", (event) => {
-  const buyButton = event.target.closest("[data-ticket-index]");
-  if (!activeFestival) return;
-
-  if (buyButton) {
-    showCheckout(ticketOptions[activeFestival.name][Number(buyButton.dataset.ticketIndex)]);
-  }
-});
-
-on("#checkoutQty", "input", updateCheckout);
-on("#qrisOptionButton", "click", () => {
-  $("#qrisAmount").textContent = checkoutTotalText;
-  showPage("qris");
-});
-on("#checkPaymentButton", "click", showPaymentSuccess);
-on("#ticketVisualPage", "click", (event) => {
-  if (event.target.closest(".download-ticket-button")) {
-    downloadTicket(activeTicket || { name: "-", price: "-" });
-  }
-});
-on("#galleryPage", "click", (event) => {
-  const tile = event.target.closest(".gallery-tile");
-  if (tile) openGalleryLightbox(tile);
-});
-on("#galleryLightboxBack", "click", closeGalleryLightbox);
-galleryLightbox.addEventListener("click", (event) => {
-  if (!event.target.closest(".gallery-lightbox-photo") && !event.target.closest(".gallery-lightbox-header")) closeGalleryLightbox();
-});
-
-on("#resetPasswordButton", "click", () => {
-  $("#resetEmail").value = currentUser.email;
-  appShell.classList.add("hidden");
-  authScreen.classList.remove("hidden");
-  setAuthMode("reset");
-  updateHistoryState({ screen: "auth", mode: "reset" }, true);
-});
-on("#editPhotoButton", "click", () => profilePhotoInput.click());
-
-profilePhotoInput.addEventListener("change", (event) => {
-  const file = event.target.files[0];
-  if (!file) {
-    return;
-  }
-
-  const imageUrl = URL.createObjectURL(file);
-  $("#profilePhotoLarge").src = imageUrl;
-  $(".profile-trigger img").src = imageUrl;
-});
-
-$$("[data-profile-language]").forEach((button) => button.addEventListener("click", () => changeLanguage(button.dataset.profileLanguage)));
-
-makeDraggableSlider($(".auth-tabs"), {
-  getActiveIndex: () => signinTab.classList.contains("active") ? 0 : 1,
-  onChange: (index) => setAuthMode(index === 0 ? "signin" : "signup")
-});
-
-makeDraggableSlider($(".profile-language-actions"), {
-  getActiveIndex: () => activeLanguage === "id" ? 1 : 0,
-  onChange: (index) => changeLanguage(index === 0 ? "en" : "id")
-});
-
-on("#changeAccountButton", "click", () => {
-  showAuthScreen("signin");
-  updateHistoryState({ screen: "auth", mode: "signin" }, true);
-  showToast(translations[activeLanguage].changeAccountToast);
-});
-
-on("#signOutButton", "click", () => {
-  window.location.replace("index.html");
-});
-
-on("#searchTrigger", "click", () => {
-  if (!activeCategory || $("#ticketsPage").classList.contains("hidden")) {
-    showToast(activeLanguage === "id" ? "Search hanya tersedia di halaman tiket." : "Search is only available on the tickets page.");
-    return;
-  }
-
-  navSearch.classList.toggle("open");
-  if (navSearch.classList.contains("open")) {
-    ticketSearchInput.focus();
-  }
-});
-
-ticketSearchInput.addEventListener("input", (event) => { ticketSearchQuery = event.target.value; renderTickets(); });
-$$("[data-route]").forEach((link) => link.addEventListener("click", (event) => { event.preventDefault(); showPage(link.dataset.route); }));
-
-renderTickets();
-renderMerchandise();
-updateLanguageButtons();
-updateStaticCopy();
-const initialState = stateFromHash();
-if (initialState.screen === "auth") {
-  setAuthMode(initialState.mode || "signin", false);
-  updateHistoryState(initialState, true);
-} else {
-  updateHistoryState({ screen: "auth", mode: "signin" }, true);
-}
+setupCommon();
+if (page === "home") setupAuth();
+if (page === "tickets") renderTickets();
+if (page === "festival-detail") setupDetail();
+if (page === "checkout") setupCheckout();
+if (page === "payment-method") setupPayment();
+if (page === "qris") setupQris();
+if (page === "payment-success") setupSuccess();
+if (page === "ticket-visual") setupVisual();
+if (page === "merchandise") setupMerch();
+if (page === "gallery") setupGallery();
+if (page === "profile") setupProfile();
